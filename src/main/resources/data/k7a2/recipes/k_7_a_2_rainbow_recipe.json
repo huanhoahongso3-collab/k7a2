@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "k7a2:k_7_a_2_rainbow_block"
+    },
+    "1": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "k7a2:k_7_a_2_rainbow_decoration_block",
+    "count": 1
+  }
+}

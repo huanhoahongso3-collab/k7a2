@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "k7a2:block/_kieuthao",
+    "up": "k7a2:block/_kieuthao",
+    "north": "k7a2:block/_kieuthao",
+    "east": "k7a2:block/_kieuthao",
+    "south": "k7a2:block/_kieuthao",
+    "west": "k7a2:block/_kieuthao",
+    "particle": "k7a2:block/_kieuthao"
+  },
+  "render_type": "solid"
+}

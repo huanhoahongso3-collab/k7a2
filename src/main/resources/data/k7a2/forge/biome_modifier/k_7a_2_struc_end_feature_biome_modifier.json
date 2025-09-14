@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_end",
+  "features": "k7a2:k_7a_2_struc_end_feature",
+  "step": "surface_structures"
+}

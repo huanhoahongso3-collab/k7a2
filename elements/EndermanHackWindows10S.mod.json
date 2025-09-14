@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Enderman Hack Windows 10 S",
+    "rarity": "RARE",
+    "texture": "images_1",
+    "description": "Music of video Enderman Hacking Windows 10 S",
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
+    "specialInformation": {
+      "fixedValue": [
+        "Its music is very good!!"
+      ]
+    },
+    "music": {
+      "value": "CUSTOM:endermanhackwin10s"
+    },
+    "lengthInTicks": 1500,
+    "analogOutput": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Smurfcat",
+    "rarity": "RARE",
+    "texture": "smurfcat",
+    "description": "We live, we love, we lie",
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
+    "specialInformation": {
+      "fixedValue": [
+        "Huyen thoai la day chu dau! Glowed"
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "music": {
+      "value": "CUSTOM:smurfcat"
+    },
+    "lengthInTicks": 1500,
+    "analogOutput": 0
+  }
+}

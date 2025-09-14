@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "netherite_hoe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "K7A2 Hoe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
+    "harvestLevel": 7,
+    "efficiency": 56201.0,
+    "attackSpeed": 10.0,
+    "enchantability": 25,
+    "damageVsEntity": 4.0,
+    "usageCount": 5610,
+    "blocksAffected": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:SuperK7A2Ingot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

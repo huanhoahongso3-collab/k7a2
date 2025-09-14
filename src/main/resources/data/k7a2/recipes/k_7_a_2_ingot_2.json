@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "k7a2:blockof_k_7_a_2"
+    }
+  },
+  "result": {
+    "item": "k7a2:k_7_a_2ingot",
+    "count": 4
+  }
+}

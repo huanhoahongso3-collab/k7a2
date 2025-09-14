@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "k7a2:block/dhphuc_planks",
+    "top": "k7a2:block/dhphuc_planks",
+    "side": "k7a2:block/dhphuc_planks"
+  },
+  "render_type": "solid"
+}

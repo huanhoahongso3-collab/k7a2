@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "k7a2:block/k7a2wood_planks",
+    "top": "k7a2:block/k7a2wood_planks",
+    "side": "k7a2:block/k7a2wood_planks"
+  },
+  "render_type": "solid"
+}

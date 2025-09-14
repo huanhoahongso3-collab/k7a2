@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "If I Am With You",
+    "rarity": "RARE",
+    "texture": "67616d0000b2736c9542310b44d4d1",
+    "description": "Nothing",
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "music": {
+      "value": "CUSTOM:ifiamwithyou"
+    },
+    "lengthInTicks": 1500,
+    "analogOutput": 0
+  }
+}

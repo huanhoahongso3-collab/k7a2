@@ -1,0 +1,16 @@
+{
+  "_fv": 57,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "K7A2 OP",
+    "pointOfInterest": {
+      "value": "CUSTOM:K7A2RainbowBlock"
+    },
+    "actionSound": {
+      "value": "entity.parrot.imitate.zombie_villager"
+    },
+    "hat": "Full",
+    "professionTextureFile": "2ab50d9f-58a1-4aff-8e31-77a01aa63a5f.png",
+    "zombifiedProfessionTextureFile": "3be9b77b-047c-4c34-aae2-5b8cc4ab1fd0.png"
+  }
+}

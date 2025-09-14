@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 125.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawK7A2EnchantedApple"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:K7A2EnchantedApple"
+    },
+    "name": "k_7_a_2_enchanted",
+    "namespace": "mod"
+  }
+}

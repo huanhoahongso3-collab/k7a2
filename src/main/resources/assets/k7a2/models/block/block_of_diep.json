@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "k7a2:block/_diep",
+    "up": "k7a2:block/_diep",
+    "north": "k7a2:block/_diep",
+    "east": "k7a2:block/_diep",
+    "south": "k7a2:block/_diep",
+    "west": "k7a2:block/_diep",
+    "particle": "k7a2:block/_diep"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "k7a2:tnt_bow"
+    },
+    "title": {
+      "translate": "advancements.look_at_its_damage.title"
+    },
+    "description": {
+      "translate": "advancements.look_at_its_damage.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "look_at_its_damage": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "k7a2:tnt_bow"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999999999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10000
+  },
+  "parent": "k7a2:dead_end"
+}

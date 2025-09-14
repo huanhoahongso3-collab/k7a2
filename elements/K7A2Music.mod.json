@@ -1,0 +1,16 @@
+{
+  "_fv": 57,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "K7A2 Music",
+    "pointOfInterest": {
+      "value": "Blocks.JUKEBOX"
+    },
+    "actionSound": {
+      "value": "block.note.guitar"
+    },
+    "hat": "None",
+    "professionTextureFile": "anh_lop_1.png",
+    "zombifiedProfessionTextureFile": "anh_lop_2.png"
+  }
+}

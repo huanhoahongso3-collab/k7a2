@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "k7a2:block/k7a2wood_planks"
+  },
+  "render_type": "solid"
+}

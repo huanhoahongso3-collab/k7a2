@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "k7a2:aether_biome",
+  "features": "k7a2:spawn_pig_feature",
+  "step": "surface_structures"
+}

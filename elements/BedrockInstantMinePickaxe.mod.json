@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "unnamed-removebg-preview",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Bedrock Instant Mine Pickaxe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
+    "harvestLevel": 0,
+    "efficiency": 125000.0,
+    "attackSpeed": 0.0,
+    "enchantability": 12,
+    "damageVsEntity": 0.0,
+    "usageCount": 506,
+    "blocksAffected": [],
+    "repairItems": [
+      {
+        "value": "Blocks.OBSIDIAN"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

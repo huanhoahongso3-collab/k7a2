@@ -1,0 +1,474 @@
+{
+  "endermanhackwin10s": {
+    "subtitle": "subtitles.endermanhackwin10s",
+    "sounds": [
+      {
+        "name": "k7a2:enderman-hack-win10s",
+        "stream": false
+      }
+    ]
+  },
+  "flashmobcbh": {
+    "subtitle": "subtitles.flashmobcbh",
+    "sounds": [
+      {
+        "name": "k7a2:hanhkhuccbh",
+        "stream": true
+      }
+    ]
+  },
+  "florentino": {
+    "subtitle": "subtitles.florentino",
+    "sounds": [
+      {
+        "name": "k7a2:yt1s.com-beat-doan-tuyet-nang-di-ver2-remix-nhac-nen-florentino-tesla-khong-loi-hot-tiktok-2022",
+        "stream": true
+      }
+    ]
+  },
+  "magaming": {
+    "subtitle": "subtitles.magaming",
+    "sounds": [
+      {
+        "name": "k7a2:yt1s.com-ma-gaming-rap-autotune",
+        "stream": true
+      }
+    ]
+  },
+  "thienlyoi": {
+    "subtitle": "subtitles.thienlyoi",
+    "sounds": [
+      {
+        "name": "k7a2:thien_ly_oi",
+        "stream": true
+      }
+    ]
+  },
+  "ifiamwithyou": {
+    "subtitle": "subtitles.ifiamwithyou",
+    "sounds": [
+      {
+        "name": "k7a2:iff-i-am-with-you-jujutsu-kaisen-ost",
+        "stream": true
+      }
+    ]
+  },
+  "smurfcat": {
+    "subtitle": "subtitles.smurfcat",
+    "sounds": [
+      {
+        "name": "k7a2:yt1s.com-alan-walker-the-spectre-zak-conner-hardsyle-remix-smurf-cat",
+        "stream": true
+      }
+    ]
+  },
+  "dangminh": {
+    "subtitle": "subtitles.dangminh",
+    "sounds": [
+      {
+        "name": "k7a2:dangminh",
+        "stream": true
+      }
+    ]
+  },
+  "danh": {
+    "subtitle": "subtitles.danh",
+    "sounds": [
+      {
+        "name": "k7a2:danh",
+        "stream": true
+      }
+    ]
+  },
+  "dat": {
+    "subtitle": "subtitles.dat",
+    "sounds": [
+      {
+        "name": "k7a2:dat",
+        "stream": true
+      }
+    ]
+  },
+  "diep": {
+    "subtitle": "subtitles.diep",
+    "sounds": [
+      {
+        "name": "k7a2:diep",
+        "stream": true
+      }
+    ]
+  },
+  "duong": {
+    "subtitle": "subtitles.duong",
+    "sounds": [
+      {
+        "name": "k7a2:duong",
+        "stream": true
+      }
+    ]
+  },
+  "ducanh": {
+    "subtitle": "subtitles.ducanh",
+    "sounds": [
+      {
+        "name": "k7a2:ducanh",
+        "stream": true
+      }
+    ]
+  },
+  "duongminh": {
+    "subtitle": "subtitles.duongminh",
+    "sounds": [
+      {
+        "name": "k7a2:duongminh",
+        "stream": true
+      }
+    ]
+  },
+  "haminh": {
+    "subtitle": "subtitles.haminh",
+    "sounds": [
+      {
+        "name": "k7a2:haminh",
+        "stream": true
+      }
+    ]
+  },
+  "hai": {
+    "subtitle": "subtitles.hai",
+    "sounds": [
+      {
+        "name": "k7a2:hai",
+        "stream": true
+      }
+    ]
+  },
+  "khanh": {
+    "subtitle": "subtitles.khanh",
+    "sounds": [
+      {
+        "name": "k7a2:khanh",
+        "stream": true
+      }
+    ]
+  },
+  "hoaian": {
+    "subtitle": "subtitles.hoaian",
+    "sounds": [
+      {
+        "name": "k7a2:hoaian",
+        "stream": true
+      }
+    ]
+  },
+  "khanhs": {
+    "subtitle": "subtitles.khanhs",
+    "sounds": [
+      {
+        "name": "k7a2:khanhs",
+        "stream": true
+      }
+    ]
+  },
+  "kieuthao": {
+    "subtitle": "subtitles.kieuthao",
+    "sounds": [
+      {
+        "name": "k7a2:kieuthao",
+        "stream": true
+      }
+    ]
+  },
+  "lam": {
+    "subtitle": "subtitles.lam",
+    "sounds": [
+      {
+        "name": "k7a2:lam",
+        "stream": true
+      }
+    ]
+  },
+  "ngan": {
+    "subtitle": "subtitles.ngan",
+    "sounds": [
+      {
+        "name": "k7a2:ngan",
+        "stream": true
+      }
+    ]
+  },
+  "myan": {
+    "subtitle": "subtitles.myan",
+    "sounds": [
+      {
+        "name": "k7a2:myan",
+        "stream": true
+      }
+    ]
+  },
+  "nguyenminh": {
+    "subtitle": "subtitles.nguyenminh",
+    "sounds": [
+      {
+        "name": "k7a2:nguyenminh",
+        "stream": true
+      }
+    ]
+  },
+  "nguyenphuc": {
+    "subtitle": "subtitles.nguyenphuc",
+    "sounds": [
+      {
+        "name": "k7a2:nguyenphuc",
+        "stream": true
+      }
+    ]
+  },
+  "nhatminh": {
+    "subtitle": "subtitles.nhatminh",
+    "sounds": [
+      {
+        "name": "k7a2:nhatminh",
+        "stream": true
+      }
+    ]
+  },
+  "nplinh": {
+    "subtitle": "subtitles.nplinh",
+    "sounds": [
+      {
+        "name": "k7a2:nplinh",
+        "stream": true
+      }
+    ]
+  },
+  "phuong": {
+    "subtitle": "subtitles.phuong",
+    "sounds": [
+      {
+        "name": "k7a2:phuong",
+        "stream": true
+      }
+    ]
+  },
+  "quynh": {
+    "subtitle": "subtitles.quynh",
+    "sounds": [
+      {
+        "name": "k7a2:quynh",
+        "stream": true
+      }
+    ]
+  },
+  "tai": {
+    "subtitle": "subtitles.tai",
+    "sounds": [
+      {
+        "name": "k7a2:tai",
+        "stream": true
+      }
+    ]
+  },
+  "thlinh": {
+    "subtitle": "subtitles.thlinh",
+    "sounds": [
+      {
+        "name": "k7a2:thlinh",
+        "stream": true
+      }
+    ]
+  },
+  "thai": {
+    "subtitle": "subtitles.thai",
+    "sounds": [
+      {
+        "name": "k7a2:thai1",
+        "stream": true
+      }
+    ]
+  },
+  "tplinh": {
+    "subtitle": "subtitles.tplinh",
+    "sounds": [
+      {
+        "name": "k7a2:tplinh",
+        "stream": true
+      }
+    ]
+  },
+  "vhlinh": {
+    "subtitle": "subtitles.vhlinh",
+    "sounds": [
+      {
+        "name": "k7a2:vhlinh",
+        "stream": true
+      }
+    ]
+  },
+  "vuthao": {
+    "subtitle": "subtitles.vuthao",
+    "sounds": [
+      {
+        "name": "k7a2:vuthao",
+        "stream": true
+      }
+    ]
+  },
+  "uyen": {
+    "subtitle": "subtitles.uyen",
+    "sounds": [
+      {
+        "name": "k7a2:uyen",
+        "stream": true
+      }
+    ]
+  },
+  "endermansecret": {
+    "subtitle": "subtitles.endermansecret",
+    "sounds": [
+      {
+        "name": "k7a2:enderman_secret",
+        "stream": false
+      }
+    ]
+  },
+  "buonhayvui": {
+    "subtitle": "subtitles.buonhayvui",
+    "sounds": [
+      {
+        "name": "k7a2:buon-hay-vui-vsoul-x-mck-x-obito-x-ronboogz-x-boyzed-official-audio",
+        "stream": true
+      }
+    ]
+  },
+  "k7a2_mixed_voice": {
+    "subtitle": "subtitles.k7a2_mixed_voice",
+    "sounds": [
+      {
+        "name": "k7a2:dangminh",
+        "stream": true
+      },
+      {
+        "name": "k7a2:danh",
+        "stream": true
+      },
+      {
+        "name": "k7a2:dat",
+        "stream": true
+      },
+      {
+        "name": "k7a2:diep",
+        "stream": true
+      },
+      {
+        "name": "k7a2:ducanh",
+        "stream": true
+      },
+      {
+        "name": "k7a2:duong",
+        "stream": true
+      },
+      {
+        "name": "k7a2:duongminh",
+        "stream": true
+      },
+      {
+        "name": "k7a2:hai",
+        "stream": true
+      },
+      {
+        "name": "k7a2:haminh",
+        "stream": true
+      },
+      {
+        "name": "k7a2:hoaian",
+        "stream": true
+      },
+      {
+        "name": "k7a2:khanh",
+        "stream": true
+      },
+      {
+        "name": "k7a2:khanhs",
+        "stream": true
+      },
+      {
+        "name": "k7a2:kieuthao",
+        "stream": true
+      },
+      {
+        "name": "k7a2:lam",
+        "stream": true
+      },
+      {
+        "name": "k7a2:myan",
+        "stream": true
+      },
+      {
+        "name": "k7a2:ngan",
+        "stream": true
+      },
+      {
+        "name": "k7a2:nguyenminh",
+        "stream": true
+      },
+      {
+        "name": "k7a2:nguyenphuc",
+        "stream": true
+      },
+      {
+        "name": "k7a2:nhatminh",
+        "stream": true
+      },
+      {
+        "name": "k7a2:nplinh",
+        "stream": true
+      },
+      {
+        "name": "k7a2:phuong",
+        "stream": true
+      },
+      {
+        "name": "k7a2:quynh",
+        "stream": true
+      },
+      {
+        "name": "k7a2:tai",
+        "stream": true
+      },
+      {
+        "name": "k7a2:thai1",
+        "stream": true
+      },
+      {
+        "name": "k7a2:thlinh",
+        "stream": true
+      },
+      {
+        "name": "k7a2:tplinh",
+        "stream": true
+      },
+      {
+        "name": "k7a2:uyen",
+        "stream": true
+      },
+      {
+        "name": "k7a2:vhlinh",
+        "stream": true
+      },
+      {
+        "name": "k7a2:vuthao",
+        "stream": true
+      }
+    ]
+  },
+  "nightchanges": {
+    "subtitle": "subtitles.nightchanges",
+    "sounds": [
+      {
+        "name": "k7a2:night-changes-one-direction-speed-up-reverb",
+        "stream": true
+      }
+    ]
+  }
+}

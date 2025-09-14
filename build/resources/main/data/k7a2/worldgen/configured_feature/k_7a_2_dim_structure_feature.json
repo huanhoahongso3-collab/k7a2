@@ -1,0 +1,9 @@
+{
+  "type": "k7a2:structure_feature",
+  "config": {
+    "structure": "k7a2:4",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Night Changes",
+    "rarity": "RARE",
+    "texture": "ab67616d0000b273b4237698c3bfca2e082f1424",
+    "description": "Night Changes",
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "music": {
+      "value": "CUSTOM:nightchanges"
+    },
+    "lengthInTicks": 4800,
+    "analogOutput": 0
+  }
+}

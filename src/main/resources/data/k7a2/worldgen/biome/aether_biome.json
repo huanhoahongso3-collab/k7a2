@@ -1,0 +1,74 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.5,
+  "downfall": 0,
+  "effects": {
+    "music": {
+      "sound": "k7a2:endermanhackwin10s",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "foliage_color": -10027162,
+    "grass_color": -16711783,
+    "sky_color": -131840,
+    "fog_color": -131840,
+    "water_color": -13421569,
+    "water_fog_color": 329011
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [
+      {
+        "type": "cow",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 5
+      },
+      {
+        "type": "pig",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 5
+      },
+      {
+        "type": "chicken",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 5
+      },
+      {
+        "type": "sheep",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 5
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:desert_well"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "k7a2:aether_biome_tree",
+      "minecraft:patch_grass_forest"
+    ],
+    []
+  ]
+}

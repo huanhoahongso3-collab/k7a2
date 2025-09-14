@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Buon Hay Vui",
+    "rarity": "RARE",
+    "texture": "buonhayvui",
+    "description": "Buon hay vui?",
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "music": {
+      "value": "CUSTOM:buonhayvui"
+    },
+    "lengthInTicks": 1500,
+    "analogOutput": 0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "k7a2:block/_giang",
+    "up": "k7a2:block/_giang",
+    "north": "k7a2:block/_giang",
+    "east": "k7a2:block/_giang",
+    "south": "k7a2:block/_giang",
+    "west": "k7a2:block/_giang",
+    "particle": "k7a2:block/_giang"
+  },
+  "render_type": "solid"
+}

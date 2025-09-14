@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "k7a2:block/hoak7a2new",
+    "particle": "k7a2:block/hoak7a2new"
+  },
+  "render_type": "cutout"
+}

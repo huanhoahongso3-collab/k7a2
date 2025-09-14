@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "k7a2:block/_hai",
+    "up": "k7a2:block/_hai",
+    "north": "k7a2:block/_hai",
+    "east": "k7a2:block/_hai",
+    "south": "k7a2:block/_hai",
+    "west": "k7a2:block/_hai",
+    "particle": "k7a2:block/_hai"
+  },
+  "render_type": "solid"
+}

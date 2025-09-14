@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "k7a2:dh_phuc_planks"
+    }
+  },
+  "result": {
+    "item": "k7a2:dh_phuc_stairs",
+    "count": 4
+  }
+}

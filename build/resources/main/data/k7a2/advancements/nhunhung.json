@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "k7a2:hanh_khuc_cbh"
+    },
+    "title": {
+      "translate": "advancements.nhunhung.title"
+    },
+    "description": {
+      "translate": "advancements.nhunhung.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nhunhung": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "k7a2:hanh_khuc_cbh"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999999999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150
+  },
+  "parent": "k7a2:jukebox"
+}

@@ -1,0 +1,133 @@
+{
+  "_fv": 57,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:K7A2OP"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:K7A2ingot"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:K7A2RainbowBlock"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:K7A2OP"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:BlockofK7A2"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:K7A2Lava.bucket"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:K7A2OP"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:SuperK7A2Ingot"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Phan.spawn_egg"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:K7A2Pro"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:TNTBow"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:K7A2ingot"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:TNTBow"
+            },
+            "countOffer": 2,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:K7A2Pro"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:K7A2ingot"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:TNTArrow"
+            },
+            "countOffer": 4,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

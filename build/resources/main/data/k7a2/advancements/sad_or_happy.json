@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "k7a2:buon_hay_vui"
+    },
+    "title": {
+      "translate": "advancements.sad_or_happy.title"
+    },
+    "description": {
+      "translate": "advancements.sad_or_happy.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "sad_or_happy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "k7a2:buon_hay_vui"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999999999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 9999
+  },
+  "parent": "k7a2:jukebox"
+}

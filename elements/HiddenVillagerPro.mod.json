@@ -1,0 +1,16 @@
+{
+  "_fv": 57,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Hidden Villager Pro",
+    "pointOfInterest": {
+      "value": "CUSTOM:BlockOfDHP"
+    },
+    "actionSound": {
+      "value": "CUSTOM:endermansecret"
+    },
+    "hat": "Full",
+    "professionTextureFile": "378966366_1004130484220944_10704566117804701_n.png",
+    "zombifiedProfessionTextureFile": "344769631_714763700397710_1701073255894486707_n.png"
+  }
+}

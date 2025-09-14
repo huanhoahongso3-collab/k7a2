@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "k7a2:k_7_a_2_lava_bucket"
+    },
+    "title": {
+      "translate": "advancements.a_bucket_of_us.title"
+    },
+    "description": {
+      "translate": "advancements.a_bucket_of_us.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_bucket_of_us": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "k7a2:k_7_a_2_lava_bucket"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999999999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "k7a2:welcometo_k_7_a_2"
+}

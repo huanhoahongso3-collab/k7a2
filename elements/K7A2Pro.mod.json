@@ -1,0 +1,16 @@
+{
+  "_fv": 57,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "K7A2 Pro",
+    "pointOfInterest": {
+      "value": "CUSTOM:BlockofK7A2"
+    },
+    "actionSound": {
+      "value": "entity.warden.sonic_boom"
+    },
+    "hat": "Partial",
+    "professionTextureFile": "anh_lop_k_khau_trang_da_bi_edit.png",
+    "zombifiedProfessionTextureFile": "0f0bda82-1d35-4019-92e9-f53e2dd2e9bf.png"
+  }
+}

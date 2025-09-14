@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Dao Hong Phuc, K7A2, CBH"
+
+[[mods]]
+modId="k7a2"
+version="6.5.3"
+displayName="k7a2"
+displayURL="https://phucdh0110.is-best.net"
+logoFile="logo.png"
+credits="Thanks all of you for playing , testing and contributing"
+authors="Dao Hong Phuc"
+description="K7A2 CBH mod made to be working on MC. Current Update: 6.x: The Secret Update"
+
+[[dependencies.k7a2]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

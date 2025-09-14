@@ -1,0 +1,36 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "16178925-scythe_l-removebg-preview",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Death Note",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "harvestLevel": 1,
+    "efficiency": 0.0,
+    "attackSpeed": 100.0,
+    "enchantability": 0,
+    "damageVsEntity": 2.5,
+    "usageCount": 99999,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "DeathNoteLivingEntityIsHitWithTool"
+    }
+  }
+}

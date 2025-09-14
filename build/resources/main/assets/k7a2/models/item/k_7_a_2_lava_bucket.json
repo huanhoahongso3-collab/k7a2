@@ -1,0 +1,5 @@
+{
+  "parent": "forge:item/bucket_drip",
+  "loader": "forge:fluid_container",
+  "fluid": "k7a2:k_7_a_2_lava"
+}

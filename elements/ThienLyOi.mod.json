@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Thien Ly Oi",
+    "rarity": "RARE",
+    "texture": "27bdc67fef29c7928298c5759de08534",
+    "description": "Jack 5 cu",
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "music": {
+      "value": "CUSTOM:thienlyoi"
+    },
+    "lengthInTicks": 1500,
+    "analogOutput": 0
+  }
+}

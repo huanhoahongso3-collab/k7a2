@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "texture": "k7a2:block/dhphuc_planks"
+  },
+  "render_type": "solid"
+}

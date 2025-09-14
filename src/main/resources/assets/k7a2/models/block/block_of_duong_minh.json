@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "k7a2:block/_duongminh",
+    "up": "k7a2:block/_duongminh",
+    "north": "k7a2:block/_duongminh",
+    "east": "k7a2:block/_duongminh",
+    "south": "k7a2:block/_duongminh",
+    "west": "k7a2:block/_duongminh",
+    "particle": "k7a2:block/_duongminh"
+  },
+  "render_type": "solid"
+}

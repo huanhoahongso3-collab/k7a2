@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "k7a2:dh_phuc_log"
+    }
+  },
+  "result": {
+    "item": "k7a2:dh_phuc_wood",
+    "count": 3
+  }
+}

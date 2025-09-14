@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "k7a2:block/_hoaian",
+    "up": "k7a2:block/_hoaian",
+    "north": "k7a2:block/_hoaian",
+    "east": "k7a2:block/_hoaian",
+    "south": "k7a2:block/_hoaian",
+    "west": "k7a2:block/_hoaian",
+    "particle": "k7a2:block/_hoaian"
+  },
+  "render_type": "solid"
+}

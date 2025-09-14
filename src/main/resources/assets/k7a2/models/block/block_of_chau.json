@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "k7a2:block/_chau",
+    "up": "k7a2:block/_chau",
+    "north": "k7a2:block/_chau",
+    "east": "k7a2:block/_chau",
+    "south": "k7a2:block/_chau",
+    "west": "k7a2:block/_chau",
+    "particle": "k7a2:block/_chau"
+  },
+  "render_type": "solid"
+}

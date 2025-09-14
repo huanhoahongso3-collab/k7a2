@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_nether",
+  "features": "k7a2:k_7a_2struc_nether_feature",
+  "step": "underground_structures"
+}

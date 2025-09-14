@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "k7a2:block/_thanh",
+    "up": "k7a2:block/_thanh",
+    "north": "k7a2:block/_thanh",
+    "east": "k7a2:block/_thanh",
+    "south": "k7a2:block/_thanh",
+    "west": "k7a2:block/_thanh",
+    "particle": "k7a2:block/_thanh"
+  },
+  "render_type": "solid"
+}
