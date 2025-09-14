@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 79,
   "_type": "potioneffect",
   "definition": {
     "effectName": "Emotional Damage",
@@ -9,10 +9,11 @@
       "falpha": 0.0
     },
     "isInstant": false,
-    "isBad": true,
-    "isBenefitical": false,
+    "mobEffectCategory": "HARMFUL",
     "renderStatusInInventory": false,
     "renderStatusInHUD": false,
+    "isCuredbyHoney": false,
+    "modifiers": [],
     "onStarted": {
       "name": "PotionOfK7A2DamPotionStartedapplied"
     }

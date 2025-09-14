@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "k7a2:blocks/block_of_diep",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "k7a2:block_of_diep"
+        }
+      ]
+    }
+  ]
+}

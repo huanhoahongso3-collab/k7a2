@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 79,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,9 +10,11 @@
     "textureLeggings": "k7a2green_leggings",
     "enableBoots": true,
     "textureBoots": "k7a2green_boots",
-    "creativeTab": {
-      "value": "CUSTOM:K7A2"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:K7A2"
+      }
+    ],
     "armorTextureFile": "k7a2green",
     "helmetName": "K7A2 Helmet",
     "bodyName": "K7A2 Body",

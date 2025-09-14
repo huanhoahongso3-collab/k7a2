@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 79,
   "_type": "tool",
   "definition": {
     "toolType": "MultiTool",
@@ -12,22 +12,24 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTab": {
-      "value": "CUSTOM:K7A2"
-    },
-    "harvestLevel": 0,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:K7A2"
+      }
+    ],
     "efficiency": 125000.0,
     "attackSpeed": 0.0,
     "enchantability": 12,
     "damageVsEntity": 0.0,
     "usageCount": 506,
-    "blocksAffected": [],
     "repairItems": [
       {
         "value": "Blocks.OBSIDIAN"
       }
     ],
     "immuneToFire": true,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

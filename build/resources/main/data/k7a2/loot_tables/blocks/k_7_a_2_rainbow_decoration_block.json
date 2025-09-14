@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "k7a2:blocks/k_7_a_2_rainbow_decoration_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "k7a2:k_7_a_2_rainbow_decoration_block"
+        }
+      ]
+    }
+  ]
+}

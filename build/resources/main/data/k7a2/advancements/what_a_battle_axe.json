@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "what_a_battle_axe": {
+    "what_a_battle_axe_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

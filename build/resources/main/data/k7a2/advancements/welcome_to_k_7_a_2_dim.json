@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "welcome_to_k_7_a_2_dim": {
+    "welcome_to_k_7_a_2_dim_0": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [

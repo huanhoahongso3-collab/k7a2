@@ -15,7 +15,7 @@
     "hidden": true
   },
   "criteria": {
-    "owner_wood": {
+    "owner_wood_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

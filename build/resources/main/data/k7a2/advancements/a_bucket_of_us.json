@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "a_bucket_of_us": {
+    "a_bucket_of_us_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

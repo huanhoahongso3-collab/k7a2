@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 79,
   "_type": "livingentity",
   "definition": {
     "mobName": "Luong Huu Dat",
@@ -10,6 +10,7 @@
       "fixedValue": false
     },
     "modelLayers": [],
+    "animations": [],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
@@ -23,9 +24,11 @@
       "value": -1,
       "falpha": 0.0
     },
-    "creativeTab": {
-      "value": "MISC"
-    },
+    "creativeTabs": [
+      {
+        "value": "MISC"
+      }
+    ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
@@ -64,7 +67,6 @@
       "fixedValue": true
     },
     "flyingMob": false,
-    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
@@ -361,6 +363,17 @@
         "value": "basalt_deltas"
       }
     ],
-    "spawnInDungeons": false
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "sensitiveToVibration": false,
+    "vibrationalEvents": []
   }
 }

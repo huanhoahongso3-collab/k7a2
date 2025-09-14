@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
+    "k7a2:block_of_co_toan",
     "k7a2:k_7_a_2_wood_wood",
-    "k7a2:k_7_a_2_wood_log",
     "k7a2:k_7_a_2_wood_planks",
-    "k7a2:dh_phuc_planks",
-    "k7a2:block_of_co_toan"
+    "k7a2:k_7_a_2_wood_log",
+    "k7a2:dh_phuc_planks"
   ]
 }

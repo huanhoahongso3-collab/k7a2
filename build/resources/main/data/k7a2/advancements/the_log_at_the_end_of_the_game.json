@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "the_log_at_the_end_of_the_game": {
+    "the_log_at_the_end_of_the_game_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

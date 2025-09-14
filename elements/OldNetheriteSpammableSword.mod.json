@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 79,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -14,22 +14,24 @@
         "Spammable?"
       ]
     },
-    "creativeTab": {
-      "value": "CUSTOM:K7A2"
-    },
-    "harvestLevel": 5,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:K7A2"
+      }
+    ],
     "efficiency": 4.0,
     "attackSpeed": 100.0,
     "enchantability": 25,
     "damageVsEntity": 5.0,
     "usageCount": 10500,
-    "blocksAffected": [],
     "repairItems": [
       {
         "value": "CUSTOM:K7A2ingot"
       }
     ],
     "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

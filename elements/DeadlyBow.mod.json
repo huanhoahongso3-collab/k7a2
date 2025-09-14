@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 79,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -9,9 +9,7 @@
     "states": [],
     "name": "Deadly Bow",
     "rarity": "COMMON",
-    "creativeTab": {
-      "value": "No creative tab entry"
-    },
+    "creativeTabs": [],
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 72000,
@@ -35,14 +33,20 @@
     "inventoryStackSize": 64,
     "enableRanged": true,
     "shootConstantly": true,
+    "rangedItemChargesPower": false,
     "projectile": {
       "value": "CUSTOM:DeadlyBowProjectile"
     },
+    "projectileDisableAmmoCheck": false,
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "bow"
+    "animation": "bow",
+    "isMusicDisc": false,
+    "musicDiscLengthInTicks": 0,
+    "musicDiscAnalogOutput": 0,
+    "providedBannerPatterns": []
   }
 }

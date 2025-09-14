@@ -1,6 +1,7 @@
 {
   "parent": "block/inner_stairs",
   "textures": {
+    "particle": "k7a2:block/dhphuc_planks",
     "bottom": "k7a2:block/dhphuc_planks",
     "top": "k7a2:block/dhphuc_planks",
     "side": "k7a2:block/dhphuc_planks"

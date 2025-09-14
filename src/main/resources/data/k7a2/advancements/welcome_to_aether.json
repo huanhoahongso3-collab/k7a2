@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "welcome_to_aether": {
+    "welcome_to_aether_0": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [

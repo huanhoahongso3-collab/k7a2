@@ -1,6 +1,7 @@
 {
   "parent": "block/cube_bottom_top",
   "textures": {
+    "particle": "k7a2:block/k7a2wood_planks",
     "bottom": "k7a2:block/k7a2wood_planks",
     "top": "k7a2:block/k7a2wood_planks",
     "side": "k7a2:block/k7a2wood_planks"

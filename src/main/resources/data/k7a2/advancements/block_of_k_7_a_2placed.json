@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "block_of_k_7_a_2placed": {
+    "block_of_k_7_a_2placed_0": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

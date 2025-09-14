@@ -1,23 +1,54 @@
 {
-  "_fv": 57,
-  "_type": "musicdisc",
+  "_fv": 79,
+  "_type": "item",
   "definition": {
+    "renderType": 0,
+    "texture": "removal.ai_19d5e5a1-0f74-4862-b44b-76ed086702c8-logo_thpt_chuyen_bien_hoa_ha_nam",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Hanh Khuc CBH",
     "rarity": "RARE",
-    "texture": "removal.ai_19d5e5a1-0f74-4862-b44b-76ed086702c8-logo_thpt_chuyen_bien_hoa_ha_nam",
-    "description": "Hanh khuc....",
-    "creativeTab": {
-      "value": "CUSTOM:K7A2"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:K7A2"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
         "Het ciu"
       ]
     },
-    "music": {
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectileDisableAmmoCheck": false,
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.30000001192092896,
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none",
+    "isMusicDisc": true,
+    "musicDiscMusic": {
       "value": "CUSTOM:flashmobcbh"
     },
-    "lengthInTicks": 1500,
-    "analogOutput": 0
+    "musicDiscDescription": "Hanh khuc....",
+    "musicDiscLengthInTicks": 1500,
+    "musicDiscAnalogOutput": 0,
+    "providedBannerPatterns": []
   }
 }

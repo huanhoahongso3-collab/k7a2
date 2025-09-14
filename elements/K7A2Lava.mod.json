@@ -1,11 +1,12 @@
 {
-  "_fv": 57,
+  "_fv": 79,
   "_type": "fluid",
   "definition": {
     "name": "K7A2 Lava",
     "bucketName": "K7A2 Bucket",
     "textureStill": "269994090_111943801353496_8322449346793998972_n",
     "textureFlowing": "269994090_111943801353496_8322449346793998972_n",
+    "hasFog": false,
     "tintType": "No tint",
     "canMultiply": true,
     "flowRate": 5,
@@ -23,9 +24,11 @@
     "type": "LAVA",
     "generateBucket": true,
     "textureBucket": "",
-    "creativeTab": {
-      "value": "CUSTOM:K7A2"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:K7A2"
+      }
+    ],
     "emptySound": {
       "value": "block.composter.empty"
     },
@@ -38,6 +41,7 @@
     "lightOpacity": 1,
     "emissiveRendering": false,
     "tickRate": 10,
+    "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "TNT"
