@@ -173,7 +173,7 @@ public class K7a2ModEntities {
 	public static final RegistryObject<EntityType<DaoHongPhucEntity>> DAO_HONG_PHUC = register("dao_hong_phuc", EntityType.Builder.<DaoHongPhucEntity>of(DaoHongPhucEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DaoHongPhucEntity::new).fireImmune().sized(0.4f, 0.7f));
 	public static final RegistryObject<EntityType<ToanEntity>> TOAN = register("toan",
-			EntityType.Builder.<ToanEntity>of(ToanEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ToanEntity::new)
+			EntityType.Builder.<ToanEntity>of(ToanEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(2).setUpdateInterval(3).setCustomClientFactory(ToanEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<PhanEntity>> PHAN = register("phan",

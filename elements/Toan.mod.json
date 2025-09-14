@@ -6,8 +6,20 @@
     "mobLabel": "",
     "mobModelName": "Biped",
     "mobModelTexture": "toan.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
     "solidBoundingBox": {
       "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
     },
     "modelLayers": [],
     "animations": [],
@@ -58,11 +70,14 @@
     "movementSpeed": 0.3,
     "stepHeight": 0.6,
     "armorBaseValue": 10.0,
-    "trackingRange": 64,
+    "trackingRange": 2,
     "followRange": 16,
     "health": 45,
     "xpAmount": 100,
     "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
     "pushedByFluids": {
       "fixedValue": true
     },
@@ -99,6 +114,9 @@
       "value": "entity.generic.death"
     },
     "stepSound": {
+      "value": ""
+    },
+    "raidCelebrationSound": {
       "value": ""
     },
     "entityDataEntries": [],
@@ -374,6 +392,9 @@
       2
     ],
     "sensitiveToVibration": false,
-    "vibrationalEvents": []
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    }
   }
 }
