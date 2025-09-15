@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.potion;
 
 import net.minecraft.world.entity.ai.attributes.AttributeMap;
@@ -13,8 +14,12 @@ public class WishYouLuckMobEffect extends MobEffect {
 	}
 
 	@Override
+	public String getDescriptionId() {
+		return "effect.k7a2.wish_you_luck";
+	}
+
+	@Override
 	public void addAttributeModifiers(LivingEntity entity, AttributeMap attributeMap, int amplifier) {
-		super.addAttributeModifiers(entity, attributeMap, amplifier);
 		WishYouLuckEffectStartedappliedProcedure.execute(entity);
 	}
 

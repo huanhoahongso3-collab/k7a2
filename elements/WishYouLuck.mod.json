@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 57,
   "_type": "potioneffect",
   "definition": {
     "effectName": "K7A2 Flower ",
@@ -9,11 +9,10 @@
       "falpha": 0.0
     },
     "isInstant": false,
-    "mobEffectCategory": "BENEFICIAL",
+    "isBad": false,
+    "isBenefitical": true,
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
-    "isCuredbyHoney": false,
-    "modifiers": [],
     "onStarted": {
       "name": "WishYouLuckEffectStartedapplied"
     }

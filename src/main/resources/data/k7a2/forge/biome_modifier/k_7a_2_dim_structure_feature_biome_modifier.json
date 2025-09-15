@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#is_overworld",
-  "features": "k7a2:k_7a_2_dim_structure_feature",
-  "step": "surface_structures"
-}

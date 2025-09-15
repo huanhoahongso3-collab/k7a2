@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.item;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -15,12 +16,12 @@ import java.util.List;
 
 public class MaGamingRapItem extends RecordItem {
 	public MaGamingRapItem() {
-		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("k7a2:magaming")), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 1500);
+		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("k7a2:magaming")), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 1500);
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.translatable("item.k7a2.ma_gaming_rap.description_0"));
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
+		list.add(Component.literal("Autotune :)))))"));
 	}
 }

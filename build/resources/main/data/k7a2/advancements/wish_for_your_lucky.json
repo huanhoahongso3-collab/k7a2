@@ -15,7 +15,7 @@
     "hidden": true
   },
   "criteria": {
-    "wish_for_your_lucky_0": {
+    "wish_for_your_lucky": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

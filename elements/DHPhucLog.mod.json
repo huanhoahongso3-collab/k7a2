@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "dhphuc_log_top",
@@ -14,10 +14,8 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "animations": [],
     "itemTexture": "",
     "particleTexture": "",
-    "blockSetType": "OAK",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -35,7 +33,6 @@
         "subtract": false
       }
     ],
-    "customProperties": [],
     "name": "DHPhuc Log",
     "specialInformation": {
       "fixedValue": []
@@ -44,15 +41,9 @@
     "resistance": 7.247796636776956,
     "hasGravity": false,
     "isWaterloggable": false,
-    "hasBlockItem": true,
-    "maxStackSize": 64,
-    "rarity": "COMMON",
-    "immuneToFire": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:K7A2"
-      }
-    ],
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -64,18 +55,19 @@
     "plantsGrowOn": true,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
+    "material": {
+      "value": "WOOD"
+    },
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "colorOnMap": "DEFAULT",
-    "noteBlockInstrument": "bass",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "ignitedByLava": true,
     "flammability": 25,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -90,11 +82,10 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "NONE",
+    "breakHarvestLevel": 0,
     "isBonemealable": false,
-    "sensitiveToVibration": false,
-    "vibrationalEvents": [],
     "hasInventory": false,
+    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,

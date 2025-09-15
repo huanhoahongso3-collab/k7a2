@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.client.particle;
 
 import net.minecraftforge.api.distmarker.OnlyIn;

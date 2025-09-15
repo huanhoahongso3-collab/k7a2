@@ -1,3 +1,4 @@
+
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
@@ -85,8 +86,8 @@ public class K7a2ModBlocks {
 	public static final RegistryObject<Block> K_7_A_2_WOOD_SLAB = REGISTRY.register("k_7_a_2_wood_slab", () -> new K7A2WoodSlabBlock());
 	public static final RegistryObject<Block> K_7_A_2_WOOD_FENCE = REGISTRY.register("k_7_a_2_wood_fence", () -> new K7A2WoodFenceBlock());
 	public static final RegistryObject<Block> K_7_A_2_WOOD_FENCE_GATE = REGISTRY.register("k_7_a_2_wood_fence_gate", () -> new K7A2WoodFenceGateBlock());
-	public static final RegistryObject<Block> K_7_A_2_PORTAL_BLOCK = REGISTRY.register("k_7_a_2_portal_block", () -> new K7A2PortalBlockBlock());
 	public static final RegistryObject<Block> K_7_A_2_DIM_PORTAL = REGISTRY.register("k_7_a_2_dim_portal", () -> new K7A2DimPortalBlock());
+	public static final RegistryObject<Block> K_7_A_2_PORTAL_BLOCK = REGISTRY.register("k_7_a_2_portal_block", () -> new K7A2PortalBlockBlock());
 	public static final RegistryObject<Block> DH_PHUC_WOOD = REGISTRY.register("dh_phuc_wood", () -> new DHPhucWoodBlock());
 	public static final RegistryObject<Block> DH_PHUC_LOG = REGISTRY.register("dh_phuc_log", () -> new DHPhucLogBlock());
 	public static final RegistryObject<Block> DH_PHUC_PLANKS = REGISTRY.register("dh_phuc_planks", () -> new DHPhucPlanksBlock());
@@ -139,6 +140,4 @@ public class K7a2ModBlocks {
 	public static final RegistryObject<Block> K_7_A_2_RAINBOW_BLOCK = REGISTRY.register("k_7_a_2_rainbow_block", () -> new K7A2RainbowBlockBlock());
 	public static final RegistryObject<Block> K_7_A_2_RAINBOW_DECORATION_BLOCK = REGISTRY.register("k_7_a_2_rainbow_decoration_block", () -> new K7A2RainbowDecorationBlockBlock());
 	public static final RegistryObject<Block> K_7_A_2_SECRET_DECORATION = REGISTRY.register("k_7_a_2_secret_decoration", () -> new K7A2SecretDecorationBlock());
-	// Start of user code block custom blocks
-	// End of user code block custom blocks
 }

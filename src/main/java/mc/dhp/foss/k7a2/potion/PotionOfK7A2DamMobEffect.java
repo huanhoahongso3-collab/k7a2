@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.potion;
 
 import net.minecraftforge.client.extensions.common.IClientMobEffectExtensions;
@@ -18,8 +19,12 @@ public class PotionOfK7A2DamMobEffect extends MobEffect {
 	}
 
 	@Override
+	public String getDescriptionId() {
+		return "effect.k7a2.potion_of_k_7_a_2_dam";
+	}
+
+	@Override
 	public void addAttributeModifiers(LivingEntity entity, AttributeMap attributeMap, int amplifier) {
-		super.addAttributeModifiers(entity, attributeMap, amplifier);
 		PotionOfK7A2DamPotionStartedappliedProcedure.execute(entity);
 	}
 

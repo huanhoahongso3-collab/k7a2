@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.fluid.types;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -15,15 +16,15 @@ import java.util.function.Consumer;
 public class K7A2LavaFluidType extends FluidType {
 	public K7A2LavaFluidType() {
 		super(FluidType.Properties.create().canSwim(false).canDrown(false).pathType(BlockPathTypes.LAVA).adjacentPathType(null).motionScale(0.007D).canConvertToSource(true).rarity(Rarity.UNCOMMON)
-				.sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL).sound(SoundActions.BUCKET_EMPTY, ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("block.composter.empty")))
+				.sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL).sound(SoundActions.BUCKET_EMPTY, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.composter.empty")))
 				.sound(SoundActions.FLUID_VAPORIZE, SoundEvents.FIRE_EXTINGUISH));
 	}
 
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = ResourceLocation.parse("k7a2:block/269994090_111943801353496_8322449346793998972_n");
-			private static final ResourceLocation FLOWING_TEXTURE = ResourceLocation.parse("k7a2:block/269994090_111943801353496_8322449346793998972_n");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("k7a2:block/269994090_111943801353496_8322449346793998972_n"),
+					FLOWING_TEXTURE = new ResourceLocation("k7a2:block/269994090_111943801353496_8322449346793998972_n");
 
 			@Override
 			public ResourceLocation getStillTexture() {

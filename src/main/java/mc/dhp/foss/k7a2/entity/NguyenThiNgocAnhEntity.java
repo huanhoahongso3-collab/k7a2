@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -96,22 +97,22 @@ public class NguyenThiNgocAnhEntity extends Villager {
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("block.lava.pop"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.lava.pop"));
 	}
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("block.wool.hit")), 0.15f, 1);
+		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wool.hit")), 0.15f, 1);
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("entity.generic.hurt"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("entity.generic.death"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
 	}
 
 	public static void init() {

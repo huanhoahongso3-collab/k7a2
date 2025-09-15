@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -88,17 +89,17 @@ public class NguyenTuUyenEntity extends Monster {
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("k7a2:uyen"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("k7a2:uyen"));
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("entity.generic.hurt"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("entity.generic.death"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
 	}
 
 	public static void init() {

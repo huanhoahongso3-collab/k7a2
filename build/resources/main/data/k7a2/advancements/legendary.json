@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "legendary_0": {
+    "legendary": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

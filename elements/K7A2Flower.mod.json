@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 57,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -13,19 +13,6 @@
     "plantType": "normal",
     "suspiciousStewEffect": "CUSTOM:WishYouLuck",
     "suspiciousStewDuration": 2500,
-    "secondaryTreeChance": 0.1,
-    "trees": [
-      null,
-      null
-    ],
-    "flowerTrees": [
-      null,
-      null
-    ],
-    "megaTrees": [
-      null,
-      null
-    ],
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "customBoundingBox": false,
@@ -45,21 +32,14 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:K7A2"
-      }
-    ],
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
     "hardness": 0.0,
     "resistance": 0.0,
     "luminance": 0,
     "unbreakable": false,
     "isSolid": false,
-    "isWaterloggable": false,
-    "hasBlockItem": true,
-    "maxStackSize": 64,
-    "rarity": "COMMON",
-    "immuneToFire": false,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "PLANT"
@@ -94,7 +74,6 @@
     },
     "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
-    "ignitedByLava": false,
     "flammability": 100,
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,

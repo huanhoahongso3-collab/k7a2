@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "cover_me_in_k_7_a_2_0": {
+    "cover_me_in_k_7_a_2": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

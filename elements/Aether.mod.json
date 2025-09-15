@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 57,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -14,37 +14,17 @@
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"
     },
-    "seaLevel": 63,
-    "generateOreVeins": true,
-    "generateAquifers": true,
-    "horizontalNoiseSize": 1,
-    "verticalNoiseSize": 2,
-    "defaultEffects": "overworld",
-    "useCustomEffects": true,
-    "hasClouds": false,
-    "cloudHeight": 192.0,
-    "skyType": "NONE",
     "airColor": {
       "value": -1,
       "falpha": 0.0
     },
-    "sunHeightAffectsFog": false,
     "canRespawnHere": true,
     "hasFog": false,
-    "ambientLight": 0.5,
+    "isDark": false,
     "doesWaterVaporize": false,
-    "hasFixedTime": false,
-    "fixedTimeValue": 0,
-    "coordinateScale": 1.0,
-    "infiniburnTag": "minecraft:infiniburn_overworld",
-    "bedWorks": true,
+    "sleepResult": "ALLOW",
     "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
-    "piglinSafe": true,
-    "hasRaids": false,
-    "minMonsterSpawnLightLimit": 0,
-    "maxMonsterSpawnLightLimit": 7,
-    "monsterSpawnBlockLightLimit": 0,
     "portalFrame": {
       "value": "Blocks.GLOWSTONE"
     },
@@ -57,15 +37,12 @@
     },
     "enableIgniter": true,
     "igniterName": "Old Water Bucket",
-    "igniterRarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:K7A2"
-      }
-    ],
+    "igniterTab": {
+      "value": "CUSTOM:K7A2"
+    },
     "texture": "bucket_water",
     "portalTexture": "water_overlay",
     "enablePortal": true

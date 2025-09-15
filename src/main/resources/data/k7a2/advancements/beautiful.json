@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "beautiful_0": {
+    "beautiful": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

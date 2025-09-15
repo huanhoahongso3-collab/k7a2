@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.item;
 
 import net.minecraftforge.common.ToolActions;
@@ -7,6 +8,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
@@ -17,7 +19,10 @@ import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
+
+import java.util.List;
 
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
@@ -53,7 +58,16 @@ public class BedrockInstantMinePickaxeItem extends TieredItem {
 
 	@Override
 	public boolean isCorrectToolForDrops(BlockState blockstate) {
-		return !blockstate.is(BlockTags.NEEDS_STONE_TOOL) && !blockstate.is(BlockTags.NEEDS_IRON_TOOL) && !blockstate.is(BlockTags.NEEDS_DIAMOND_TOOL);
+		int tier = 0;
+		if (tier < 3 && blockstate.is(BlockTags.NEEDS_DIAMOND_TOOL)) {
+			return false;
+		} else if (tier < 2 && blockstate.is(BlockTags.NEEDS_IRON_TOOL)) {
+			return false;
+		} else {
+			return tier < 1 && blockstate.is(BlockTags.NEEDS_STONE_TOOL)
+					? false
+					: (blockstate.is(BlockTags.MINEABLE_WITH_AXE) || blockstate.is(BlockTags.MINEABLE_WITH_HOE) || blockstate.is(BlockTags.MINEABLE_WITH_PICKAXE) || blockstate.is(BlockTags.MINEABLE_WITH_SHOVEL));
+		}
 	}
 
 	@Override
@@ -72,7 +86,7 @@ public class BedrockInstantMinePickaxeItem extends TieredItem {
 		if (equipmentSlot == EquipmentSlot.MAINHAND) {
 			ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 			builder.putAll(super.getDefaultAttributeModifiers(equipmentSlot));
-			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Tool modifier", -1f, AttributeModifier.Operation.ADDITION));
+			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Tool modifier", -2f, AttributeModifier.Operation.ADDITION));
 			builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Tool modifier", -4, AttributeModifier.Operation.ADDITION));
 			return builder.build();
 		}
@@ -89,5 +103,10 @@ public class BedrockInstantMinePickaxeItem extends TieredItem {
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		itemstack.hurtAndBreak(2, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
 		return true;
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
 	}
 }

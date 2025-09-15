@@ -1,19 +1,28 @@
+
 package mc.dhp.foss.k7a2.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.context.UseOnContext;
-import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
 import mc.dhp.foss.k7a2.block.AetherPortalBlock;
 
+import java.util.List;
+
 public class AetherItem extends Item {
 	public AetherItem() {
-		super(new Item.Properties().rarity(Rarity.COMMON).durability(64));
+		super(new Item.Properties().durability(64));
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
 	}
 
 	@Override

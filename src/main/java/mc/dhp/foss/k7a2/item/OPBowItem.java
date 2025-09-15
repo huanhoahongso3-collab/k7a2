@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.item;
 
 import net.minecraft.world.level.block.state.BlockState;
@@ -41,26 +42,32 @@ public class OPBowItem extends Item {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.translatable("item.k7a2.op_bow.description_0"));
-		list.add(Component.translatable("item.k7a2.op_bow.description_1"));
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
+		list.add(Component.literal("Nothing"));
+		list.add(Component.literal("just it"));
 	}
 
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
-		InteractionResultHolder<ItemStack> ar = InteractionResultHolder.fail(entity.getItemInHand(hand));
-		if (entity.getAbilities().instabuild || findAmmo(entity) != ItemStack.EMPTY) {
-			ar = InteractionResultHolder.success(entity.getItemInHand(hand));
-			entity.startUsingItem(hand);
-		}
+		InteractionResultHolder<ItemStack> ar = InteractionResultHolder.success(entity.getItemInHand(hand));
+		entity.startUsingItem(hand);
 		return ar;
 	}
 
 	@Override
 	public void onUseTick(Level world, LivingEntity entity, ItemStack itemstack, int count) {
 		if (!world.isClientSide() && entity instanceof ServerPlayer player) {
-			ItemStack stack = findAmmo(player);
+			ItemStack stack = ProjectileWeaponItem.getHeldProjectile(entity, e -> e.getItem() == OPBowProjectileEntity.PROJECTILE_ITEM.getItem());
+			if (stack == ItemStack.EMPTY) {
+				for (int i = 0; i < player.getInventory().items.size(); i++) {
+					ItemStack teststack = player.getInventory().items.get(i);
+					if (teststack != null && teststack.getItem() == OPBowProjectileEntity.PROJECTILE_ITEM.getItem()) {
+						stack = teststack;
+						break;
+					}
+				}
+			}
 			if (player.getAbilities().instabuild || stack != ItemStack.EMPTY) {
 				OPBowProjectileEntity projectile = OPBowProjectileEntity.shoot(world, entity, world.getRandom());
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
@@ -83,19 +90,5 @@ public class OPBowItem extends Item {
 			}
 			entity.releaseUsingItem();
 		}
-	}
-
-	private ItemStack findAmmo(Player player) {
-		ItemStack stack = ProjectileWeaponItem.getHeldProjectile(player, e -> e.getItem() == OPBowProjectileEntity.PROJECTILE_ITEM.getItem());
-		if (stack == ItemStack.EMPTY) {
-			for (int i = 0; i < player.getInventory().items.size(); i++) {
-				ItemStack teststack = player.getInventory().items.get(i);
-				if (teststack != null && teststack.getItem() == OPBowProjectileEntity.PROJECTILE_ITEM.getItem()) {
-					stack = teststack;
-					break;
-				}
-			}
-		}
-		return stack;
 	}
 }

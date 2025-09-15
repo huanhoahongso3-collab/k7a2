@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
@@ -11,12 +12,12 @@ import mc.dhp.foss.k7a2.entity.NguyenTuanMinhEntity;
 
 public class NguyenTuanMinhRenderer extends HumanoidMobRenderer<NguyenTuanMinhEntity, HumanoidModel<NguyenTuanMinhEntity>> {
 	public NguyenTuanMinhRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<NguyenTuanMinhEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
+		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
 		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(NguyenTuanMinhEntity entity) {
-		return ResourceLocation.parse("k7a2:textures/entities/nguyenminh.png");
+		return new ResourceLocation("k7a2:textures/entities/nguyenminh.png");
 	}
 }

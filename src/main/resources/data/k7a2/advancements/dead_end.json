@@ -15,7 +15,7 @@
     "hidden": true
   },
   "criteria": {
-    "dead_end_0": {
+    "dead_end": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

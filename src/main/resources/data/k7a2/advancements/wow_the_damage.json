@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "wow_the_damage_0": {
+    "wow_the_damage": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

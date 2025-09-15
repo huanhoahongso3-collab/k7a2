@@ -1,3 +1,4 @@
+
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
@@ -55,6 +56,7 @@ import mc.dhp.foss.k7a2.K7a2Mod;
 
 public class K7a2ModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, K7a2Mod.MODID);
+	public static final RegistryObject<Item> TOAN_SPAWN_EGG = REGISTRY.register("toan_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.TOAN, -6750208, -65419, new Item.Properties()));
 	public static final RegistryObject<Item> TRAN_HOAI_AN_SPAWN_EGG = REGISTRY.register("tran_hoai_an_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.TRAN_HOAI_AN, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> PHAM_MY_AN_SPAWN_EGG = REGISTRY.register("pham_my_an_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.PHAM_MY_AN, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> NGUYEN_THI_NGOC_ANH_SPAWN_EGG = REGISTRY.register("nguyen_thi_ngoc_anh_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.NGUYEN_THI_NGOC_ANH, -1, -1, new Item.Properties()));
@@ -73,13 +75,11 @@ public class K7a2ModItems {
 	public static final RegistryObject<Item> TRAN_PHUONG_LINH_SPAWN_EGG = REGISTRY.register("tran_phuong_linh_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.TRAN_PHUONG_LINH, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> NGUYEN_PHUONG_LINH_SPAWN_EGG = REGISTRY.register("nguyen_phuong_linh_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.NGUYEN_PHUONG_LINH, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> VU_HA_LINH_SPAWN_EGG = REGISTRY.register("vu_ha_linh_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.VU_HA_LINH, -1, -1, new Item.Properties()));
-	public static final RegistryObject<Item> K_7_A_2INGOT = REGISTRY.register("k_7_a_2ingot", () -> new K7A2ingotItem());
 	public static final RegistryObject<Item> NGUYEN_TUAN_MINH_SPAWN_EGG = REGISTRY.register("nguyen_tuan_minh_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.NGUYEN_TUAN_MINH, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> DUONG_TIEN_MINH_SPAWN_EGG = REGISTRY.register("duong_tien_minh_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.DUONG_TIEN_MINH, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> DANG_TUAN_MINH_SPAWN_EGG = REGISTRY.register("dang_tuan_minh_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.DANG_TUAN_MINH, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> NGUYEN_HA_MINH_SPAWN_EGG = REGISTRY.register("nguyen_ha_minh_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.NGUYEN_HA_MINH, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> TRAN_NHAT_MINH_SPAWN_EGG = REGISTRY.register("tran_nhat_minh_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.TRAN_NHAT_MINH, -1, -1, new Item.Properties()));
-	public static final RegistryObject<Item> K_7_A_2_NUGGET = REGISTRY.register("k_7_a_2_nugget", () -> new K7A2NuggetItem());
 	public static final RegistryObject<Item> VU_KHANH_NGAN_SPAWN_EGG = REGISTRY.register("vu_khanh_ngan_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.VU_KHANH_NGAN, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> NGUYEN_KHOI_NGUYEN_SPAWN_EGG = REGISTRY.register("nguyen_khoi_nguyen_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.NGUYEN_KHOI_NGUYEN, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> NGUYEN_LAP_HONG_PHUC_SPAWN_EGG = REGISTRY.register("nguyen_lap_hong_phuc_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.NGUYEN_LAP_HONG_PHUC, -1, -1, new Item.Properties()));
@@ -92,7 +92,14 @@ public class K7a2ModItems {
 	public static final RegistryObject<Item> KIEU_PHUONG_THAO_SPAWN_EGG = REGISTRY.register("kieu_phuong_thao_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.KIEU_PHUONG_THAO, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> NGUYEN_THANH_TRUC_SPAWN_EGG = REGISTRY.register("nguyen_thanh_truc_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.NGUYEN_THANH_TRUC, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> NGUYEN_TU_UYEN_SPAWN_EGG = REGISTRY.register("nguyen_tu_uyen_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.NGUYEN_TU_UYEN, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> DEATH_NOTE = REGISTRY.register("death_note", () -> new DeathNoteItem());
+	public static final RegistryObject<Item> K_7_A_2_NUGGET = REGISTRY.register("k_7_a_2_nugget", () -> new K7A2NuggetItem());
+	public static final RegistryObject<Item> K_7_A_2_STICK = REGISTRY.register("k_7_a_2_stick", () -> new K7A2StickItem());
+	public static final RegistryObject<Item> RAW_K_7_A_2_ENCHANTED_APPLE = REGISTRY.register("raw_k_7_a_2_enchanted_apple", () -> new RawK7A2EnchantedAppleItem());
+	public static final RegistryObject<Item> K_7_A_2INGOT = REGISTRY.register("k_7_a_2ingot", () -> new K7A2ingotItem());
+	public static final RegistryObject<Item> K_7_A_2_SHEARS = REGISTRY.register("k_7_a_2_shears", () -> new K7A2ShearsItem());
 	public static final RegistryObject<Item> BLOCKOF_K_7_A_2 = block(K7a2ModBlocks.BLOCKOF_K_7_A_2);
+	public static final RegistryObject<Item> SUPER_K_7_A_2_INGOT = REGISTRY.register("super_k_7_a_2_ingot", () -> new SuperK7A2IngotItem());
 	public static final RegistryObject<Item> K_7_A_2_ARMOR_HELMET = REGISTRY.register("k_7_a_2_armor_helmet", () -> new K7A2ArmorItem.Helmet());
 	public static final RegistryObject<Item> K_7_A_2_ARMOR_CHESTPLATE = REGISTRY.register("k_7_a_2_armor_chestplate", () -> new K7A2ArmorItem.Chestplate());
 	public static final RegistryObject<Item> K_7_A_2_ARMOR_LEGGINGS = REGISTRY.register("k_7_a_2_armor_leggings", () -> new K7A2ArmorItem.Leggings());
@@ -102,14 +109,15 @@ public class K7a2ModItems {
 	public static final RegistryObject<Item> K_7_A_2_SHOVEL = REGISTRY.register("k_7_a_2_shovel", () -> new K7A2ShovelItem());
 	public static final RegistryObject<Item> K_7_A_2_HOE = REGISTRY.register("k_7_a_2_hoe", () -> new K7A2HoeItem());
 	public static final RegistryObject<Item> K_7_A_2_SWORD = REGISTRY.register("k_7_a_2_sword", () -> new K7A2SwordItem());
-	public static final RegistryObject<Item> SUPER_K_7_A_2_INGOT = REGISTRY.register("super_k_7_a_2_ingot", () -> new SuperK7A2IngotItem());
-	public static final RegistryObject<Item> K_7_A_2_STICK = REGISTRY.register("k_7_a_2_stick", () -> new K7A2StickItem());
-	public static final RegistryObject<Item> K_7_A_2_SHEARS = REGISTRY.register("k_7_a_2_shears", () -> new K7A2ShearsItem());
-	public static final RegistryObject<Item> RAW_K_7_A_2_ENCHANTED_APPLE = REGISTRY.register("raw_k_7_a_2_enchanted_apple", () -> new RawK7A2EnchantedAppleItem());
 	public static final RegistryObject<Item> OLD_NETHERITE_SPAMMABLE_SWORD = REGISTRY.register("old_netherite_spammable_sword", () -> new OldNetheriteSpammableSwordItem());
 	public static final RegistryObject<Item> BATTLE_GOLDEN_AXE = REGISTRY.register("battle_golden_axe", () -> new BattleGoldenAxeItem());
-	public static final RegistryObject<Item> DEATH_NOTE = REGISTRY.register("death_note", () -> new DeathNoteItem());
-	public static final RegistryObject<Item> TOAN_SPAWN_EGG = REGISTRY.register("toan_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.TOAN, -6750208, -65419, new Item.Properties()));
+	public static final RegistryObject<Item> HANH_KHUC_CBH = REGISTRY.register("hanh_khuc_cbh", () -> new HanhKhucCBHItem());
+	public static final RegistryObject<Item> MA_GAMING_RAP = REGISTRY.register("ma_gaming_rap", () -> new MaGamingRapItem());
+	public static final RegistryObject<Item> FLORENTINO = REGISTRY.register("florentino", () -> new FlorentinoItem());
+	public static final RegistryObject<Item> THIEN_LY_OI = REGISTRY.register("thien_ly_oi", () -> new ThienLyOiItem());
+	public static final RegistryObject<Item> IF_I_AM_WITH_YOU = REGISTRY.register("if_i_am_with_you", () -> new IfIAmWithYouItem());
+	public static final RegistryObject<Item> SMURFCAT = REGISTRY.register("smurfcat", () -> new SmurfcatItem());
+	public static final RegistryObject<Item> K_7A_2MIXEDDISC = REGISTRY.register("k_7a_2mixeddisc", () -> new K7a2mixeddiscItem());
 	public static final RegistryObject<Item> K_7_A_2_WOOD_WOOD = block(K7a2ModBlocks.K_7_A_2_WOOD_WOOD);
 	public static final RegistryObject<Item> K_7_A_2_WOOD_LOG = block(K7a2ModBlocks.K_7_A_2_WOOD_LOG);
 	public static final RegistryObject<Item> K_7_A_2_WOOD_PLANKS = block(K7a2ModBlocks.K_7_A_2_WOOD_PLANKS);
@@ -118,8 +126,8 @@ public class K7a2ModItems {
 	public static final RegistryObject<Item> K_7_A_2_WOOD_SLAB = block(K7a2ModBlocks.K_7_A_2_WOOD_SLAB);
 	public static final RegistryObject<Item> K_7_A_2_WOOD_FENCE = block(K7a2ModBlocks.K_7_A_2_WOOD_FENCE);
 	public static final RegistryObject<Item> K_7_A_2_WOOD_FENCE_GATE = block(K7a2ModBlocks.K_7_A_2_WOOD_FENCE_GATE);
-	public static final RegistryObject<Item> K_7_A_2_PORTAL_BLOCK = block(K7a2ModBlocks.K_7_A_2_PORTAL_BLOCK);
 	public static final RegistryObject<Item> K_7_A_2_DIM = REGISTRY.register("k_7_a_2_dim", () -> new K7A2DimItem());
+	public static final RegistryObject<Item> K_7_A_2_PORTAL_BLOCK = block(K7a2ModBlocks.K_7_A_2_PORTAL_BLOCK);
 	public static final RegistryObject<Item> DH_PHUC_WOOD = block(K7a2ModBlocks.DH_PHUC_WOOD);
 	public static final RegistryObject<Item> DH_PHUC_LOG = block(K7a2ModBlocks.DH_PHUC_LOG);
 	public static final RegistryObject<Item> DH_PHUC_PLANKS = block(K7a2ModBlocks.DH_PHUC_PLANKS);
@@ -129,6 +137,8 @@ public class K7a2ModItems {
 	public static final RegistryObject<Item> DH_PHUC_FENCE = block(K7a2ModBlocks.DH_PHUC_FENCE);
 	public static final RegistryObject<Item> DH_PHUC_FENCE_GATE = block(K7a2ModBlocks.DH_PHUC_FENCE_GATE);
 	public static final RegistryObject<Item> AETHER = REGISTRY.register("aether", () -> new AetherItem());
+	public static final RegistryObject<Item> ENDERMAN_HACK_WINDOWS_10_S = REGISTRY.register("enderman_hack_windows_10_s", () -> new EndermanHackWindows10SItem());
+	public static final RegistryObject<Item> ENDERMAN_SECRET = REGISTRY.register("enderman_secret", () -> new EndermanSecretItem());
 	public static final RegistryObject<Item> BLOCK_OF_THLINH_2 = block(K7a2ModBlocks.BLOCK_OF_THLINH_2);
 	public static final RegistryObject<Item> BLOCK_OF_CHAU = block(K7a2ModBlocks.BLOCK_OF_CHAU);
 	public static final RegistryObject<Item> BLOCK_OF_DANG_MINH = block(K7a2ModBlocks.BLOCK_OF_DANG_MINH);
@@ -174,34 +184,19 @@ public class K7a2ModItems {
 	public static final RegistryObject<Item> K_7_A_2_CARROT = REGISTRY.register("k_7_a_2_carrot", () -> new K7A2CarrotItem());
 	public static final RegistryObject<Item> K_7_A_2_LAVA_BUCKET = REGISTRY.register("k_7_a_2_lava_bucket", () -> new K7A2LavaItem());
 	public static final RegistryObject<Item> K_7_A_2_FLOWER = block(K7a2ModBlocks.K_7_A_2_FLOWER);
+	public static final RegistryObject<Item> BUON_HAY_VUI = REGISTRY.register("buon_hay_vui", () -> new BuonHayVuiItem());
 	public static final RegistryObject<Item> K_7_A_2_RAINBOW_BLOCK = block(K7a2ModBlocks.K_7_A_2_RAINBOW_BLOCK);
 	public static final RegistryObject<Item> K_7_A_2_RAINBOW_DECORATION_BLOCK = block(K7a2ModBlocks.K_7_A_2_RAINBOW_DECORATION_BLOCK);
 	public static final RegistryObject<Item> PHAN_SPAWN_EGG = REGISTRY.register("phan_spawn_egg", () -> new ForgeSpawnEggItem(K7a2ModEntities.PHAN, -3480320, -16449536, new Item.Properties()));
 	public static final RegistryObject<Item> K_7_A_2_SECRET_DECORATION = block(K7a2ModBlocks.K_7_A_2_SECRET_DECORATION);
 	public static final RegistryObject<Item> TNT_ARROW = REGISTRY.register("tnt_arrow", () -> new TNTArrowItem());
 	public static final RegistryObject<Item> TNT_CHARGE = REGISTRY.register("tnt_charge", () -> new TNTChargeItem());
+	public static final RegistryObject<Item> NIGHT_CHANGE = REGISTRY.register("night_change", () -> new NightChangeItem());
 	public static final RegistryObject<Item> OP_BOW = REGISTRY.register("op_bow", () -> new OPBowItem());
 	public static final RegistryObject<Item> DEADLY_BOW = REGISTRY.register("deadly_bow", () -> new DeadlyBowItem());
 	public static final RegistryObject<Item> TNT_BOW = REGISTRY.register("tnt_bow", () -> new TNTBowItem());
-	public static final RegistryObject<Item> HANH_KHUC_CBH = REGISTRY.register("hanh_khuc_cbh", () -> new HanhKhucCBHItem());
-	public static final RegistryObject<Item> MA_GAMING_RAP = REGISTRY.register("ma_gaming_rap", () -> new MaGamingRapItem());
-	public static final RegistryObject<Item> FLORENTINO = REGISTRY.register("florentino", () -> new FlorentinoItem());
-	public static final RegistryObject<Item> THIEN_LY_OI = REGISTRY.register("thien_ly_oi", () -> new ThienLyOiItem());
-	public static final RegistryObject<Item> IF_I_AM_WITH_YOU = REGISTRY.register("if_i_am_with_you", () -> new IfIAmWithYouItem());
-	public static final RegistryObject<Item> SMURFCAT = REGISTRY.register("smurfcat", () -> new SmurfcatItem());
-	public static final RegistryObject<Item> K_7A_2MIXEDDISC = REGISTRY.register("k_7a_2mixeddisc", () -> new K7a2mixeddiscItem());
-	public static final RegistryObject<Item> ENDERMAN_HACK_WINDOWS_10_S = REGISTRY.register("enderman_hack_windows_10_s", () -> new EndermanHackWindows10SItem());
-	public static final RegistryObject<Item> ENDERMAN_SECRET = REGISTRY.register("enderman_secret", () -> new EndermanSecretItem());
-	public static final RegistryObject<Item> BUON_HAY_VUI = REGISTRY.register("buon_hay_vui", () -> new BuonHayVuiItem());
-	public static final RegistryObject<Item> NIGHT_CHANGE = REGISTRY.register("night_change", () -> new NightChangeItem());
 
-	// Start of user code block custom items
-	// End of user code block custom items
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
-		return block(block, new Item.Properties());
-	}
-
-	private static RegistryObject<Item> block(RegistryObject<Block> block, Item.Properties properties) {
-		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), properties));
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
 	}
 }

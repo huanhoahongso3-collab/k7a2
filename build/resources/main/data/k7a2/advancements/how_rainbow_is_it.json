@@ -15,7 +15,7 @@
     "hidden": true
   },
   "criteria": {
-    "how_rainbow_is_it_0": {
+    "how_rainbow_is_it": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

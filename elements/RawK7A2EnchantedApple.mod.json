@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 57,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -9,11 +9,9 @@
     "states": [],
     "name": "Raw K7A2 Enchanted Apple",
     "rarity": "COMMON",
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:K7A2"
-      }
-    ],
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
@@ -31,21 +29,16 @@
     "specialInformation": {
       "fixedValue": []
     },
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,
-    "rangedItemChargesPower": false,
-    "projectileDisableAmmoCheck": false,
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat",
-    "isMusicDisc": false,
-    "musicDiscLengthInTicks": 0,
-    "musicDiscAnalogOutput": 0,
-    "providedBannerPatterns": []
+    "animation": "eat"
   }
 }

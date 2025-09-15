@@ -1,8 +1,11 @@
+
 package mc.dhp.foss.k7a2.item;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
@@ -11,8 +14,11 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
 
 import mc.dhp.foss.k7a2.init.K7a2ModItems;
+
+import java.util.List;
 
 public abstract class K7A2ArmorItem extends ArmorItem {
 	public K7A2ArmorItem(ArmorItem.Type type, Item.Properties properties) {
@@ -34,7 +40,7 @@ public abstract class K7A2ArmorItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("block.anvil.use"));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.use"));
 			}
 
 			@Override
@@ -65,6 +71,11 @@ public abstract class K7A2ArmorItem extends ArmorItem {
 		}
 
 		@Override
+		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, world, list, flag);
+		}
+
+		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "k7a2:textures/models/armor/k7a2green_layer_1.png";
 		}
@@ -73,6 +84,11 @@ public abstract class K7A2ArmorItem extends ArmorItem {
 	public static class Chestplate extends K7A2ArmorItem {
 		public Chestplate() {
 			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
+		}
+
+		@Override
+		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, world, list, flag);
 		}
 
 		@Override
@@ -87,6 +103,11 @@ public abstract class K7A2ArmorItem extends ArmorItem {
 		}
 
 		@Override
+		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, world, list, flag);
+		}
+
+		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "k7a2:textures/models/armor/k7a2green_layer_2.png";
 		}
@@ -95,6 +116,11 @@ public abstract class K7A2ArmorItem extends ArmorItem {
 	public static class Boots extends K7A2ArmorItem {
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
+		}
+
+		@Override
+		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, world, list, flag);
 		}
 
 		@Override

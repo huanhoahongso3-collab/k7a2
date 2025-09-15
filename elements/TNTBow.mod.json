@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 57,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -9,16 +9,17 @@
     "states": [],
     "name": "TNT Bow",
     "rarity": "COMMON",
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:K7A2"
-      }
-    ],
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 72000,
     "toolType": 0.0,
     "damageCount": 5610,
+    "recipeRemainder": {
+      "value": ""
+    },
     "destroyAnyBlock": false,
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
@@ -35,20 +36,17 @@
     "inventoryStackSize": 64,
     "enableRanged": true,
     "shootConstantly": false,
-    "rangedItemChargesPower": false,
     "projectile": {
       "value": "CUSTOM:TNTBowProjectile"
     },
-    "projectileDisableAmmoCheck": false,
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "bow",
-    "isMusicDisc": false,
-    "musicDiscLengthInTicks": 0,
-    "musicDiscAnalogOutput": 0,
-    "providedBannerPatterns": []
+    "animation": "bow"
   }
 }

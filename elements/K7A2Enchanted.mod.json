@@ -1,11 +1,10 @@
 {
-  "_fv": 79,
+  "_fv": 57,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
     "recipeRetstackSize": 1,
     "group": "",
-    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 125.0,
     "cookingTime": 100,

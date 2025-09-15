@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+build/libs/*.jar filter=lfs diff=lfs merge=lfs -text
+build/reobfJar/*.jar filter=lfs diff=lfs merge=lfs -text
+.mcreator/*.zip filter=lfs diff=lfs merge=lfs -text
+

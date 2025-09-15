@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 57,
   "_type": "structure",
   "definition": {
     "structure": "1",
@@ -9,8 +9,8 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 5,
-    "separation": 2,
+    "spacing": 74,
+    "separation": 10,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:K7A2Biome"
@@ -133,9 +133,6 @@
         "value": "mutated_redwood_taiga"
       },
       {
-        "value": "pale_garden"
-      },
-      {
         "value": "plains"
       },
       {
@@ -211,15 +208,8 @@
         "value": "wooded_badlands_plateau"
       }
     ],
-    "terrainAdaptation": "none",
-    "generationStep": "SURFACE_STRUCTURES",
     "surfaceDetectionType": "WORLD_SURFACE_WG",
-    "useStartHeight": false,
-    "startHeightProviderType": "UNIFORM",
-    "startHeightMin": 0,
-    "startHeightMax": 128,
-    "size": 1,
-    "maxDistanceFromCenter": 64,
-    "jigsawPools": []
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES"
   }
 }

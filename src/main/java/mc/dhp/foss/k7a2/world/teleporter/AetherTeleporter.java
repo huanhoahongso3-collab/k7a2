@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.world.teleporter;
 
 import net.minecraftforge.registries.RegisterEvent;

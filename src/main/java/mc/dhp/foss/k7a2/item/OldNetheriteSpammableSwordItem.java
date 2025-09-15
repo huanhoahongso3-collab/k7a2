@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.item;
 
 import net.minecraft.world.level.Level;
@@ -25,11 +26,11 @@ public class OldNetheriteSpammableSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 1f;
+				return 3f;
 			}
 
 			public int getLevel() {
-				return 4;
+				return 5;
 			}
 
 			public int getEnchantmentValue() {
@@ -43,8 +44,8 @@ public class OldNetheriteSpammableSwordItem extends SwordItem {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.translatable("item.k7a2.old_netherite_spammable_sword.description_0"));
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
+		list.add(Component.literal("Spammable?"));
 	}
 }

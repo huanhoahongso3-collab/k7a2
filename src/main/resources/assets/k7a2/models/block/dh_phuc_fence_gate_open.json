@@ -1,7 +1,6 @@
 {
   "parent": "block/template_fence_gate_open",
   "textures": {
-    "particle": "k7a2:block/dhphuc_planks",
     "texture": "k7a2:block/dhphuc_planks"
   },
   "render_type": "solid"

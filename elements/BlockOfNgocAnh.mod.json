@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "_ngocanh",
@@ -14,10 +14,8 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "animations": [],
     "itemTexture": "",
     "particleTexture": "",
-    "blockSetType": "OAK",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -35,7 +33,6 @@
         "subtract": false
       }
     ],
-    "customProperties": [],
     "name": "Block Of Ngoc Anh",
     "specialInformation": {
       "fixedValue": []
@@ -44,15 +41,9 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "hasBlockItem": true,
-    "maxStackSize": 64,
-    "rarity": "COMMON",
-    "immuneToFire": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:K7A2BuildingBlock"
-      }
-    ],
+    "creativeTab": {
+      "value": "CUSTOM:K7A2BuildingBlock"
+    },
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -64,18 +55,19 @@
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
+    "material": {
+      "value": "ROCK"
+    },
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "colorOnMap": "DEFAULT",
-    "noteBlockInstrument": "basedrum",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -90,11 +82,10 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "STONE",
+    "breakHarvestLevel": 1,
     "isBonemealable": false,
-    "sensitiveToVibration": false,
-    "vibrationalEvents": [],
     "hasInventory": false,
+    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,

@@ -15,7 +15,7 @@
     "hidden": true
   },
   "criteria": {
-    "even_when_the_night_0": {
+    "even_when_the_night": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

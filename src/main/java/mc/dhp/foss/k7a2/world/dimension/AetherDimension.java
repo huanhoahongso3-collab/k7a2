@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.world.dimension;
 
 import net.minecraftforge.fml.common.Mod;
@@ -13,7 +14,7 @@ import net.minecraft.client.renderer.DimensionSpecialEffects;
 @Mod.EventBusSubscriber
 public class AetherDimension {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	public static class AetherSpecialEffectsHandler {
+	public static class DimensionSpecialEffectsHandler {
 		@SubscribeEvent
 		@OnlyIn(Dist.CLIENT)
 		public static void registerDimensionSpecialEffects(RegisterDimensionSpecialEffectsEvent event) {
@@ -28,7 +29,7 @@ public class AetherDimension {
 					return false;
 				}
 			};
-			event.register(ResourceLocation.parse("k7a2:aether"), customEffect);
+			event.register(new ResourceLocation("k7a2:aether"), customEffect);
 		}
 	}
 }

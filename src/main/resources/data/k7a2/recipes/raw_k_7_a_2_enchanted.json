@@ -11,7 +11,7 @@
       "item": "k7a2:k_7_a_2ingot"
     },
     "b": {
-      "item": "minecraft:air"
+      "tag": "minecraft:coals"
     },
     "c": {
       "item": "k7a2:k_7_a_2_apple"

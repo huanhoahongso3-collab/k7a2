@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.block;
 
 import org.checkerframework.checker.units.qual.s;
@@ -37,7 +38,7 @@ public class K7A2DimPortalBlock extends NetherPortalBlock {
 	}
 
 	@Override
-	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+	public void randomTick(BlockState state, ServerLevel world, BlockPos pos, RandomSource random) {
 	}
 
 	public static void portalSpawn(Level world, BlockPos pos) {
@@ -76,17 +77,17 @@ public class K7A2DimPortalBlock extends NetherPortalBlock {
 			world.addParticle((SimpleParticleType) (K7a2ModParticleTypes.K_7_A_2_PARTICLE.get()), px, py, pz, vx, vy, vz);
 		}
 		if (random.nextInt(110) == 0)
-			world.playSound(null, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("block.portal.ambient")), SoundSource.BLOCKS, 0.5f, random.nextFloat() * 0.4f + 0.8f);
+			world.playSound(null, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(("block.portal.ambient"))), SoundSource.BLOCKS, 0.5f, random.nextFloat() * 0.4f + 0.8f);
 	}
 
 	@Override
 	public void entityInside(BlockState state, Level world, BlockPos pos, Entity entity) {
-		if (entity.canChangeDimensions() && !entity.level().isClientSide()) {
+		if (entity.canChangeDimensions() && !entity.level().isClientSide() && true) {
 			if (entity.isOnPortalCooldown()) {
 				entity.setPortalCooldown();
-			} else if (entity.level().dimension() != ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("k7a2:k_7_a_2_dim"))) {
+			} else if (entity.level().dimension() != ResourceKey.create(Registries.DIMENSION, new ResourceLocation("k7a2:k_7_a_2_dim"))) {
 				entity.setPortalCooldown();
-				teleportToDimension(entity, pos, ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("k7a2:k_7_a_2_dim")));
+				teleportToDimension(entity, pos, ResourceKey.create(Registries.DIMENSION, new ResourceLocation("k7a2:k_7_a_2_dim")));
 			} else {
 				entity.setPortalCooldown();
 				teleportToDimension(entity, pos, Level.OVERWORLD);

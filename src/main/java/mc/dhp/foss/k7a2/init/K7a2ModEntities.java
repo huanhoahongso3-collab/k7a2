@@ -1,3 +1,4 @@
+
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
@@ -29,7 +30,6 @@ import mc.dhp.foss.k7a2.entity.TranHoaiAnEntity;
 import mc.dhp.foss.k7a2.entity.TranHaLinhEntity;
 import mc.dhp.foss.k7a2.entity.ToanEntity;
 import mc.dhp.foss.k7a2.entity.TNTBowProjectileEntity;
-import mc.dhp.foss.k7a2.entity.PhanEntityProjectile;
 import mc.dhp.foss.k7a2.entity.PhanEntity;
 import mc.dhp.foss.k7a2.entity.PhamMyAnEntity;
 import mc.dhp.foss.k7a2.entity.PhamDucAnhEntity;
@@ -62,6 +62,10 @@ import mc.dhp.foss.k7a2.K7a2Mod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class K7a2ModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, K7a2Mod.MODID);
+	public static final RegistryObject<EntityType<ToanEntity>> TOAN = register("toan",
+			EntityType.Builder.<ToanEntity>of(ToanEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(2).setUpdateInterval(3).setCustomClientFactory(ToanEntity::new)
+
+					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<TranHoaiAnEntity>> TRAN_HOAI_AN = register("tran_hoai_an", EntityType.Builder.<TranHoaiAnEntity>of(TranHoaiAnEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TranHoaiAnEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<PhamMyAnEntity>> PHAM_MY_AN = register("pham_my_an",
@@ -172,25 +176,17 @@ public class K7a2ModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<DaoHongPhucEntity>> DAO_HONG_PHUC = register("dao_hong_phuc", EntityType.Builder.<DaoHongPhucEntity>of(DaoHongPhucEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DaoHongPhucEntity::new).fireImmune().sized(0.4f, 0.7f));
-	public static final RegistryObject<EntityType<ToanEntity>> TOAN = register("toan",
-			EntityType.Builder.<ToanEntity>of(ToanEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(2).setUpdateInterval(3).setCustomClientFactory(ToanEntity::new)
-
-					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<PhanEntity>> PHAN = register("phan",
-			EntityType.Builder.<PhanEntity>of(PhanEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PhanEntity::new)
+			EntityType.Builder.<PhanEntity>of(PhanEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(5).setUpdateInterval(3).setCustomClientFactory(PhanEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<PhanEntityProjectile>> PHAN_PROJECTILE = register("projectile_phan",
-			EntityType.Builder.<PhanEntityProjectile>of(PhanEntityProjectile::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(PhanEntityProjectile::new).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<OPBowProjectileEntity>> OP_BOW_PROJECTILE = register("op_bow_projectile", EntityType.Builder.<OPBowProjectileEntity>of(OPBowProjectileEntity::new, MobCategory.MISC)
-			.setCustomClientFactory(OPBowProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<DeadlyBowProjectileEntity>> DEADLY_BOW_PROJECTILE = register("deadly_bow_projectile", EntityType.Builder.<DeadlyBowProjectileEntity>of(DeadlyBowProjectileEntity::new, MobCategory.MISC)
+	public static final RegistryObject<EntityType<DeadlyBowProjectileEntity>> DEADLY_BOW_PROJECTILE = register("projectile_deadly_bow_projectile", EntityType.Builder.<DeadlyBowProjectileEntity>of(DeadlyBowProjectileEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(DeadlyBowProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<TNTBowProjectileEntity>> TNT_BOW_PROJECTILE = register("tnt_bow_projectile", EntityType.Builder.<TNTBowProjectileEntity>of(TNTBowProjectileEntity::new, MobCategory.MISC)
+	public static final RegistryObject<EntityType<OPBowProjectileEntity>> OP_BOW_PROJECTILE = register("projectile_op_bow_projectile", EntityType.Builder.<OPBowProjectileEntity>of(OPBowProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(OPBowProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<TNTBowProjectileEntity>> TNT_BOW_PROJECTILE = register("projectile_tnt_bow_projectile", EntityType.Builder.<TNTBowProjectileEntity>of(TNTBowProjectileEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(TNTBowProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
-	// Start of user code block custom entities
-	// End of user code block custom entities
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
 	}
@@ -198,6 +194,7 @@ public class K7a2ModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
+			ToanEntity.init();
 			TranHoaiAnEntity.init();
 			PhamMyAnEntity.init();
 			NguyenThiNgocAnhEntity.init();
@@ -234,13 +231,13 @@ public class K7a2ModEntities {
 			NguyenThanhTrucEntity.init();
 			NguyenTuUyenEntity.init();
 			DaoHongPhucEntity.init();
-			ToanEntity.init();
 			PhanEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(TOAN.get(), ToanEntity.createAttributes().build());
 		event.put(TRAN_HOAI_AN.get(), TranHoaiAnEntity.createAttributes().build());
 		event.put(PHAM_MY_AN.get(), PhamMyAnEntity.createAttributes().build());
 		event.put(NGUYEN_THI_NGOC_ANH.get(), NguyenThiNgocAnhEntity.createAttributes().build());
@@ -277,7 +274,6 @@ public class K7a2ModEntities {
 		event.put(NGUYEN_THANH_TRUC.get(), NguyenThanhTrucEntity.createAttributes().build());
 		event.put(NGUYEN_TU_UYEN.get(), NguyenTuUyenEntity.createAttributes().build());
 		event.put(DAO_HONG_PHUC.get(), DaoHongPhucEntity.createAttributes().build());
-		event.put(TOAN.get(), ToanEntity.createAttributes().build());
 		event.put(PHAN.get(), PhanEntity.createAttributes().build());
 	}
 }

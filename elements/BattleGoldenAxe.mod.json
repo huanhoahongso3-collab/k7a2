@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 57,
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
@@ -12,24 +12,22 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:K7A2"
-      }
-    ],
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
+    "harvestLevel": 3,
     "efficiency": 12.0,
     "attackSpeed": 1.25,
     "enchantability": 25,
     "damageVsEntity": 20.5,
     "usageCount": 5500,
+    "blocksAffected": [],
     "repairItems": [
       {
         "value": "CUSTOM:SuperK7A2Ingot"
       }
     ],
     "immuneToFire": false,
-    "blockDropsTier": "DIAMOND",
-    "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

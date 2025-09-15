@@ -15,7 +15,7 @@
     "hidden": true
   },
   "criteria": {
-    "look_at_its_damage_0": {
+    "look_at_its_damage": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

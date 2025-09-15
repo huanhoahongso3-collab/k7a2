@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "nhunhung_0": {
+    "nhunhung": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

@@ -1,3 +1,4 @@
+
 /*
  * MCreator note: This file will be REGENERATED on each build.
  */
@@ -25,7 +26,7 @@ public class K7a2ModFluids {
 	public static final RegistryObject<FlowingFluid> FLOWING_K_7_A_2_LAVA = REGISTRY.register("flowing_k_7_a_2_lava", () -> new K7A2LavaFluid.Flowing());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-	public static class FluidsClientSideHandler {
+	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			ItemBlockRenderTypes.setRenderLayer(K_7_A_2_LAVA.get(), RenderType.translucent());

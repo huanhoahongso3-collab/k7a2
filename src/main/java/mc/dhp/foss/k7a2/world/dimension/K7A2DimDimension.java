@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.world.dimension;
 
 import net.minecraftforge.fml.common.Mod;
@@ -13,11 +14,11 @@ import net.minecraft.client.renderer.DimensionSpecialEffects;
 @Mod.EventBusSubscriber
 public class K7A2DimDimension {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	public static class K7A2DimSpecialEffectsHandler {
+	public static class DimensionSpecialEffectsHandler {
 		@SubscribeEvent
 		@OnlyIn(Dist.CLIENT)
 		public static void registerDimensionSpecialEffects(RegisterDimensionSpecialEffectsEvent event) {
-			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(192f, true, DimensionSpecialEffects.SkyType.NORMAL, false, false) {
+			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(DimensionSpecialEffects.OverworldEffects.CLOUD_LEVEL, true, DimensionSpecialEffects.SkyType.NORMAL, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
 					return color.multiply(sunHeight * 0.94 + 0.06, sunHeight * 0.94 + 0.06, sunHeight * 0.91 + 0.09);
@@ -28,7 +29,7 @@ public class K7A2DimDimension {
 					return true;
 				}
 			};
-			event.register(ResourceLocation.parse("k7a2:k_7_a_2_dim"), customEffect);
+			event.register(new ResourceLocation("k7a2:k_7_a_2_dim"), customEffect);
 		}
 	}
 }

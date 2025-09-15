@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 57,
   "_type": "livingentity",
   "definition": {
     "mobName": "Nguyen Thi Ngoc Anh",
@@ -10,7 +10,6 @@
       "fixedValue": false
     },
     "modelLayers": [],
-    "animations": [],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
@@ -24,11 +23,9 @@
       "value": -1,
       "falpha": 0.0
     },
-    "creativeTabs": [
-      {
-        "value": "MISC"
-      }
-    ],
+    "creativeTab": {
+      "value": "MISC"
+    },
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
@@ -67,6 +64,7 @@
       "fixedValue": true
     },
     "flyingMob": false,
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
@@ -363,17 +361,6 @@
         "value": "basalt_deltas"
       }
     ],
-    "spawnInDungeons": false,
-    "raidSpawnsCount": [
-      4,
-      3,
-      3,
-      4,
-      4,
-      4,
-      2
-    ],
-    "sensitiveToVibration": false,
-    "vibrationalEvents": []
+    "spawnInDungeons": false
   }
 }

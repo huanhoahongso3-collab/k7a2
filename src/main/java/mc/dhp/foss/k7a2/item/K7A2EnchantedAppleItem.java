@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.item;
 
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -39,9 +40,9 @@ public class K7A2EnchantedAppleItem extends Item {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.translatable("item.k7a2.k_7_a_2_enchanted_apple.description_0"));
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
+		list.add(Component.literal("More?"));
 	}
 
 	@Override

@@ -15,7 +15,7 @@
     "hidden": true
   },
   "criteria": {
-    "sad_or_happy_0": {
+    "sad_or_happy": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

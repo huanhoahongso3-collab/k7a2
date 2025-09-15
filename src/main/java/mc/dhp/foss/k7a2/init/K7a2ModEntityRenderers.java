@@ -1,3 +1,4 @@
+
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
@@ -53,6 +54,7 @@ import mc.dhp.foss.k7a2.client.renderer.DangTuanMinhRenderer;
 public class K7a2ModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
+		event.registerEntityRenderer(K7a2ModEntities.TOAN.get(), ToanRenderer::new);
 		event.registerEntityRenderer(K7a2ModEntities.TRAN_HOAI_AN.get(), TranHoaiAnRenderer::new);
 		event.registerEntityRenderer(K7a2ModEntities.PHAM_MY_AN.get(), PhamMyAnRenderer::new);
 		event.registerEntityRenderer(K7a2ModEntities.NGUYEN_THI_NGOC_ANH.get(), NguyenThiNgocAnhRenderer::new);
@@ -89,11 +91,9 @@ public class K7a2ModEntityRenderers {
 		event.registerEntityRenderer(K7a2ModEntities.NGUYEN_THANH_TRUC.get(), NguyenThanhTrucRenderer::new);
 		event.registerEntityRenderer(K7a2ModEntities.NGUYEN_TU_UYEN.get(), NguyenTuUyenRenderer::new);
 		event.registerEntityRenderer(K7a2ModEntities.DAO_HONG_PHUC.get(), DaoHongPhucRenderer::new);
-		event.registerEntityRenderer(K7a2ModEntities.TOAN.get(), ToanRenderer::new);
 		event.registerEntityRenderer(K7a2ModEntities.PHAN.get(), PhanRenderer::new);
-		event.registerEntityRenderer(K7a2ModEntities.PHAN_PROJECTILE.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(K7a2ModEntities.OP_BOW_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(K7a2ModEntities.DEADLY_BOW_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(K7a2ModEntities.OP_BOW_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(K7a2ModEntities.TNT_BOW_PROJECTILE.get(), ThrownItemRenderer::new);
 	}
 }

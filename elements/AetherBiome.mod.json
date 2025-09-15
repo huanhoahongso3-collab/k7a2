@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 57,
   "_type": "biome",
   "definition": {
     "name": "Aether Biome",
@@ -10,10 +10,6 @@
       "value": "Blocks.STONE#0"
     },
     "airColor": {
-      "value": -131840,
-      "falpha": 0.0
-    },
-    "fogColor": {
       "value": -131840,
       "falpha": 0.0
     },

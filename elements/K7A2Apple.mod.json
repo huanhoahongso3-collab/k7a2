@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 57,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -9,11 +9,9 @@
     "states": [],
     "name": "K7A2 Apple",
     "rarity": "COMMON",
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:K7A2"
-      }
-    ],
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 15,
@@ -37,8 +35,6 @@
     },
     "enableRanged": false,
     "shootConstantly": false,
-    "rangedItemChargesPower": false,
-    "projectileDisableAmmoCheck": false,
     "isFood": true,
     "nutritionalValue": 4,
     "saturation": 0.5,
@@ -47,10 +43,6 @@
     },
     "isMeat": true,
     "isAlwaysEdible": true,
-    "animation": "eat",
-    "isMusicDisc": false,
-    "musicDiscLengthInTicks": 0,
-    "musicDiscAnalogOutput": 0,
-    "providedBannerPatterns": []
+    "animation": "eat"
   }
 }

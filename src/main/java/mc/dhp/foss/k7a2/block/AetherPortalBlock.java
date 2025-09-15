@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.block;
 
 import org.checkerframework.checker.units.qual.s;
@@ -36,7 +37,7 @@ public class AetherPortalBlock extends NetherPortalBlock {
 	}
 
 	@Override
-	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+	public void randomTick(BlockState state, ServerLevel world, BlockPos pos, RandomSource random) {
 	}
 
 	public static void portalSpawn(Level world, BlockPos pos) {
@@ -75,17 +76,17 @@ public class AetherPortalBlock extends NetherPortalBlock {
 			world.addParticle(ParticleTypes.BUBBLE, px, py, pz, vx, vy, vz);
 		}
 		if (random.nextInt(110) == 0)
-			world.playSound(null, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("item.bucket.fill")), SoundSource.BLOCKS, 0.5f, random.nextFloat() * 0.4f + 0.8f);
+			world.playSound(null, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(("item.bucket.fill"))), SoundSource.BLOCKS, 0.5f, random.nextFloat() * 0.4f + 0.8f);
 	}
 
 	@Override
 	public void entityInside(BlockState state, Level world, BlockPos pos, Entity entity) {
-		if (entity.canChangeDimensions() && !entity.level().isClientSide()) {
+		if (entity.canChangeDimensions() && !entity.level().isClientSide() && true) {
 			if (entity.isOnPortalCooldown()) {
 				entity.setPortalCooldown();
-			} else if (entity.level().dimension() != ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("k7a2:aether"))) {
+			} else if (entity.level().dimension() != ResourceKey.create(Registries.DIMENSION, new ResourceLocation("k7a2:aether"))) {
 				entity.setPortalCooldown();
-				teleportToDimension(entity, pos, ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("k7a2:aether")));
+				teleportToDimension(entity, pos, ResourceKey.create(Registries.DIMENSION, new ResourceLocation("k7a2:aether")));
 			} else {
 				entity.setPortalCooldown();
 				teleportToDimension(entity, pos, Level.OVERWORLD);

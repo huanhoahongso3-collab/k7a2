@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
@@ -11,12 +12,12 @@ import mc.dhp.foss.k7a2.entity.TranNhuQuynhEntity;
 
 public class TranNhuQuynhRenderer extends HumanoidMobRenderer<TranNhuQuynhEntity, HumanoidModel<TranNhuQuynhEntity>> {
 	public TranNhuQuynhRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<TranNhuQuynhEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
+		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
 		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(TranNhuQuynhEntity entity) {
-		return ResourceLocation.parse("k7a2:textures/entities/quynh.png");
+		return new ResourceLocation("k7a2:textures/entities/quynh.png");
 	}
 }

@@ -1,3 +1,4 @@
+
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
@@ -33,12 +34,12 @@ import com.google.common.collect.ImmutableSet;
 public class K7a2ModVillagerProfessions {
 	private static final Map<String, ProfessionPoiType> POI_TYPES = new HashMap<>();
 	public static final DeferredRegister<VillagerProfession> PROFESSIONS = DeferredRegister.create(ForgeRegistries.VILLAGER_PROFESSIONS, K7a2Mod.MODID);
-	public static final RegistryObject<VillagerProfession> K_7_A_2_PRO = registerProfession("k_7_a_2_pro", () -> K7a2ModBlocks.BLOCKOF_K_7_A_2.get(), () -> ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("entity.warden.sonic_boom")));
+	public static final RegistryObject<VillagerProfession> K_7_A_2_PRO = registerProfession("k_7_a_2_pro", () -> K7a2ModBlocks.BLOCKOF_K_7_A_2.get(), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.warden.sonic_boom")));
 	public static final RegistryObject<VillagerProfession> HIDDEN_VILLAGER_PRO = registerProfession("hidden_villager_pro", () -> K7a2ModBlocks.BLOCK_OF_DHP.get(),
-			() -> ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("k7a2:endermansecret")));
-	public static final RegistryObject<VillagerProfession> K_7_A_2_MUSIC = registerProfession("k_7_a_2_music", () -> Blocks.JUKEBOX, () -> ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("block.note_block.guitar")));
+			() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("k7a2:endermansecret")));
+	public static final RegistryObject<VillagerProfession> K_7_A_2_MUSIC = registerProfession("k_7_a_2_music", () -> Blocks.JUKEBOX, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.note_block.guitar")));
 	public static final RegistryObject<VillagerProfession> K_7_A_2_OP = registerProfession("k_7_a_2_op", () -> K7a2ModBlocks.K_7_A_2_RAINBOW_BLOCK.get(),
-			() -> ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("entity.parrot.imitate.zombie_villager")));
+			() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.parrot.imitate.zombie_villager")));
 
 	private static RegistryObject<VillagerProfession> registerProfession(String name, Supplier<Block> block, Supplier<SoundEvent> soundEvent) {
 		POI_TYPES.put(name, new ProfessionPoiType(block, null));

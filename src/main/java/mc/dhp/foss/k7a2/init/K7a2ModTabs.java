@@ -1,3 +1,4 @@
+
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
@@ -22,9 +23,13 @@ public class K7a2ModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, K7a2Mod.MODID);
 	public static final RegistryObject<CreativeModeTab> K_7_A_2 = REGISTRY.register("k_7_a_2",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.k7a2.k_7_a_2")).icon(() -> new ItemStack(K7a2ModItems.K_7_A_2INGOT.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(K7a2ModItems.K_7_A_2INGOT.get());
 				tabData.accept(K7a2ModItems.K_7_A_2_NUGGET.get());
+				tabData.accept(K7a2ModItems.K_7_A_2_STICK.get());
+				tabData.accept(K7a2ModItems.RAW_K_7_A_2_ENCHANTED_APPLE.get());
+				tabData.accept(K7a2ModItems.K_7_A_2INGOT.get());
+				tabData.accept(K7a2ModItems.K_7_A_2_SHEARS.get());
 				tabData.accept(K7a2ModBlocks.BLOCKOF_K_7_A_2.get().asItem());
+				tabData.accept(K7a2ModItems.SUPER_K_7_A_2_INGOT.get());
 				tabData.accept(K7a2ModItems.K_7_A_2_ARMOR_HELMET.get());
 				tabData.accept(K7a2ModItems.K_7_A_2_ARMOR_CHESTPLATE.get());
 				tabData.accept(K7a2ModItems.K_7_A_2_ARMOR_LEGGINGS.get());
@@ -34,12 +39,15 @@ public class K7a2ModTabs {
 				tabData.accept(K7a2ModItems.K_7_A_2_SHOVEL.get());
 				tabData.accept(K7a2ModItems.K_7_A_2_HOE.get());
 				tabData.accept(K7a2ModItems.K_7_A_2_SWORD.get());
-				tabData.accept(K7a2ModItems.SUPER_K_7_A_2_INGOT.get());
-				tabData.accept(K7a2ModItems.K_7_A_2_STICK.get());
-				tabData.accept(K7a2ModItems.K_7_A_2_SHEARS.get());
-				tabData.accept(K7a2ModItems.RAW_K_7_A_2_ENCHANTED_APPLE.get());
 				tabData.accept(K7a2ModItems.OLD_NETHERITE_SPAMMABLE_SWORD.get());
 				tabData.accept(K7a2ModItems.BATTLE_GOLDEN_AXE.get());
+				tabData.accept(K7a2ModItems.HANH_KHUC_CBH.get());
+				tabData.accept(K7a2ModItems.MA_GAMING_RAP.get());
+				tabData.accept(K7a2ModItems.FLORENTINO.get());
+				tabData.accept(K7a2ModItems.THIEN_LY_OI.get());
+				tabData.accept(K7a2ModItems.IF_I_AM_WITH_YOU.get());
+				tabData.accept(K7a2ModItems.SMURFCAT.get());
+				tabData.accept(K7a2ModItems.K_7A_2MIXEDDISC.get());
 				tabData.accept(K7a2ModBlocks.K_7_A_2_WOOD_WOOD.get().asItem());
 				tabData.accept(K7a2ModBlocks.K_7_A_2_WOOD_LOG.get().asItem());
 				tabData.accept(K7a2ModBlocks.K_7_A_2_WOOD_PLANKS.get().asItem());
@@ -48,8 +56,8 @@ public class K7a2ModTabs {
 				tabData.accept(K7a2ModBlocks.K_7_A_2_WOOD_SLAB.get().asItem());
 				tabData.accept(K7a2ModBlocks.K_7_A_2_WOOD_FENCE.get().asItem());
 				tabData.accept(K7a2ModBlocks.K_7_A_2_WOOD_FENCE_GATE.get().asItem());
-				tabData.accept(K7a2ModBlocks.K_7_A_2_PORTAL_BLOCK.get().asItem());
 				tabData.accept(K7a2ModItems.K_7_A_2_DIM.get());
+				tabData.accept(K7a2ModBlocks.K_7_A_2_PORTAL_BLOCK.get().asItem());
 				tabData.accept(K7a2ModBlocks.DH_PHUC_WOOD.get().asItem());
 				tabData.accept(K7a2ModBlocks.DH_PHUC_LOG.get().asItem());
 				tabData.accept(K7a2ModBlocks.DH_PHUC_PLANKS.get().asItem());
@@ -59,6 +67,8 @@ public class K7a2ModTabs {
 				tabData.accept(K7a2ModBlocks.DH_PHUC_FENCE.get().asItem());
 				tabData.accept(K7a2ModBlocks.DH_PHUC_FENCE_GATE.get().asItem());
 				tabData.accept(K7a2ModItems.AETHER.get());
+				tabData.accept(K7a2ModItems.ENDERMAN_HACK_WINDOWS_10_S.get());
+				tabData.accept(K7a2ModItems.ENDERMAN_SECRET.get());
 				tabData.accept(K7a2ModItems.BEDROCK_INSTANT_MINE_PICKAXE.get());
 				tabData.accept(K7a2ModItems.K_7_A_2_TOOL_GETTING_BLOCK.get());
 				tabData.accept(K7a2ModItems.K_7_A_2_APPLE.get());
@@ -66,23 +76,14 @@ public class K7a2ModTabs {
 				tabData.accept(K7a2ModItems.K_7_A_2_CARROT.get());
 				tabData.accept(K7a2ModItems.K_7_A_2_LAVA_BUCKET.get());
 				tabData.accept(K7a2ModBlocks.K_7_A_2_FLOWER.get().asItem());
+				tabData.accept(K7a2ModItems.BUON_HAY_VUI.get());
 				tabData.accept(K7a2ModBlocks.K_7_A_2_RAINBOW_BLOCK.get().asItem());
 				tabData.accept(K7a2ModBlocks.K_7_A_2_RAINBOW_DECORATION_BLOCK.get().asItem());
 				tabData.accept(K7a2ModItems.TNT_ARROW.get());
 				tabData.accept(K7a2ModItems.TNT_CHARGE.get());
+				tabData.accept(K7a2ModItems.NIGHT_CHANGE.get());
 				tabData.accept(K7a2ModItems.OP_BOW.get());
 				tabData.accept(K7a2ModItems.TNT_BOW.get());
-				tabData.accept(K7a2ModItems.HANH_KHUC_CBH.get());
-				tabData.accept(K7a2ModItems.MA_GAMING_RAP.get());
-				tabData.accept(K7a2ModItems.FLORENTINO.get());
-				tabData.accept(K7a2ModItems.THIEN_LY_OI.get());
-				tabData.accept(K7a2ModItems.IF_I_AM_WITH_YOU.get());
-				tabData.accept(K7a2ModItems.SMURFCAT.get());
-				tabData.accept(K7a2ModItems.K_7A_2MIXEDDISC.get());
-				tabData.accept(K7a2ModItems.ENDERMAN_HACK_WINDOWS_10_S.get());
-				tabData.accept(K7a2ModItems.ENDERMAN_SECRET.get());
-				tabData.accept(K7a2ModItems.BUON_HAY_VUI.get());
-				tabData.accept(K7a2ModItems.NIGHT_CHANGE.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> K_7_A_2_BUILDING_BLOCK = REGISTRY.register("k_7_a_2_building_block",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.k7a2.k_7_a_2_building_block")).icon(() -> new ItemStack(K7a2ModBlocks.BLOCKOF_K_7_A_2.get())).displayItems((parameters, tabData) -> {
@@ -123,11 +124,13 @@ public class K7a2ModTabs {
 				tabData.accept(K7a2ModBlocks.BLOCK_OF_NGUYEN.get().asItem());
 				tabData.accept(K7a2ModBlocks.BLOCK_OF_DHP.get().asItem());
 				tabData.accept(K7a2ModBlocks.BLOCK_OF_CO_TOAN.get().asItem());
-			}).withSearchBar().withTabsBefore(K_7_A_2.getId()).build());
+			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(K7a2ModItems.TOAN_SPAWN_EGG.get());
 			tabData.accept(K7a2ModItems.TRAN_HOAI_AN_SPAWN_EGG.get());
 			tabData.accept(K7a2ModItems.PHAM_MY_AN_SPAWN_EGG.get());
 			tabData.accept(K7a2ModItems.NGUYEN_THI_NGOC_ANH_SPAWN_EGG.get());
@@ -163,9 +166,10 @@ public class K7a2ModTabs {
 			tabData.accept(K7a2ModItems.KIEU_PHUONG_THAO_SPAWN_EGG.get());
 			tabData.accept(K7a2ModItems.NGUYEN_THANH_TRUC_SPAWN_EGG.get());
 			tabData.accept(K7a2ModItems.NGUYEN_TU_UYEN_SPAWN_EGG.get());
-			tabData.accept(K7a2ModItems.TOAN_SPAWN_EGG.get());
 			tabData.accept(K7a2ModItems.PHAN_SPAWN_EGG.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(K7a2ModBlocks.BLOCK_OF_THLINH_2.get().asItem());
 			tabData.accept(K7a2ModBlocks.K_7_A_2_SECRET_DECORATION.get().asItem());
 		}

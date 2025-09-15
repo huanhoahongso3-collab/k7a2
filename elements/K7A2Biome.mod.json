@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 57,
   "_type": "biome",
   "definition": {
     "name": "K7A2 Biome",
@@ -13,10 +13,6 @@
       "value": ""
     },
     "airColor": {
-      "value": -655165,
-      "falpha": 0.0
-    },
-    "fogColor": {
       "value": -655165,
       "falpha": 0.0
     },

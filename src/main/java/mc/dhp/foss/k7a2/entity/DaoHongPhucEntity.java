@@ -1,3 +1,4 @@
+
 package mc.dhp.foss.k7a2.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -89,12 +90,12 @@ public class DaoHongPhucEntity extends Chicken {
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("entity.generic.hurt"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("entity.generic.death"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
 	}
 
 	@Override
@@ -111,11 +112,6 @@ public class DaoHongPhucEntity extends Chicken {
 		if (damagesource.is(DamageTypes.DROWN))
 			return false;
 		return super.hurt(damagesource, amount);
-	}
-
-	@Override
-	public boolean fireImmune() {
-		return true;
 	}
 
 	@Override

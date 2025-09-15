@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 57,
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
@@ -12,19 +12,21 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTabs": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "harvestLevel": 1,
     "efficiency": 0.0,
     "attackSpeed": 100.0,
-    "enchantability": 1,
+    "enchantability": 0,
     "damageVsEntity": 2.5,
     "usageCount": 99999,
+    "blocksAffected": [],
     "glowCondition": {
       "fixedValue": true
     },
     "repairItems": [],
     "immuneToFire": false,
-    "blockDropsTier": "STONE",
-    "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {

@@ -15,7 +15,7 @@
     "hidden": true
   },
   "criteria": {
-    "i_can_fly_0": {
+    "i_can_fly": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
