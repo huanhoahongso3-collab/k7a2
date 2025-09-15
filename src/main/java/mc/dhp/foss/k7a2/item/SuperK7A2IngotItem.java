@@ -16,7 +16,7 @@ import java.util.List;
 
 public class SuperK7A2IngotItem extends Item {
 	public SuperK7A2IngotItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).fireResistant().rarity(Rarity.COMMON));
 	}
 
 	@Override

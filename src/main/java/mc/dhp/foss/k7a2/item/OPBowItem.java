@@ -17,6 +17,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
 
+import mc.dhp.foss.k7a2.procedures.OPBowUsedProcedure;
 import mc.dhp.foss.k7a2.entity.OPBowProjectileEntity;
 
 import java.util.List;
@@ -87,6 +88,7 @@ public class OPBowItem extends Item {
 							player.getInventory().removeItem(stack);
 					}
 				}
+				OPBowUsedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
 			}
 			entity.releaseUsingItem();
 		}

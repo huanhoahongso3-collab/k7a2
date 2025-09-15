@@ -11,6 +11,6 @@ public class OPBowRangedItemUsedProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(K7a2ModMobEffects.POTION_OF_K_7_A_2_DAM.get(), 200, 1));
+			_entity.addEffect(new MobEffectInstance(K7a2ModMobEffects.POTION_OF_K_7_A_2_DAM.get(), 156, 1));
 	}
 }

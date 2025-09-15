@@ -12,5 +12,17 @@
     },
     "done": false
   },
+  "k7a2:k_7_a_2_bow": {
+    "criteria": {
+      "k_7_a_2_bow": "2025-09-15 14:41:28 +0700"
+    },
+    "done": true
+  },
+  "k7a2:beautiful": {
+    "criteria": {
+      "beautiful": "2025-09-15 14:41:31 +0700"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

@@ -1,0 +1,132 @@
+{
+  "k7a2:pink_apple": {
+    "criteria": {
+      "pink_apple": "2025-09-15 14:46:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-09-15 14:44:23 +0700"
+    },
+    "done": true
+  },
+  "k7a2:nhunhung": {
+    "criteria": {
+      "nhunhung": "2025-09-15 14:46:21 +0700"
+    },
+    "done": true
+  },
+  "k7a2:k_7_a_2_bow": {
+    "criteria": {
+      "k_7_a_2_bow": "2025-09-15 14:43:56 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-15 14:43:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-09-15 14:46:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-09-15 14:44:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-09-15 14:44:23 +0700"
+    },
+    "done": true
+  },
+  "k7a2:wish_for_your_lucky": {
+    "criteria": {
+      "wish_for_your_lucky": "2025-09-15 14:45:53 +0700"
+    },
+    "done": true
+  },
+  "k7a2:pink_carrot": {
+    "criteria": {
+      "pink_carrot": "2025-09-15 14:46:22 +0700"
+    },
+    "done": true
+  },
+  "k7a2:spammable": {
+    "criteria": {
+      "spammable": "2025-09-15 14:46:21 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2025-09-15 14:43:45 +0700",
+      "minecraft:beach": "2025-09-15 14:44:22 +0700",
+      "minecraft:forest": "2025-09-15 14:45:48 +0700",
+      "minecraft:deep_frozen_ocean": "2025-09-15 14:46:07 +0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-09-15 14:44:23 +0700"
+    },
+    "done": true
+  },
+  "k7a2:welcometo_k_7_a_2": {
+    "criteria": {
+      "welcometo_k_7_a_2": "2025-09-15 14:46:20 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-09-15 14:44:23 +0700"
+    },
+    "done": true
+  },
+  "k7a2:beautiful": {
+    "criteria": {
+      "beautiful": "2025-09-15 14:44:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-09-15 14:46:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-09-15 14:44:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-09-15 14:44:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-09-15 14:44:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-09-15 14:44:23 +0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

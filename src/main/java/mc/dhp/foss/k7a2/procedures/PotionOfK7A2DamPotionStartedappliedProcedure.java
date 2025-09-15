@@ -22,12 +22,12 @@ public class PotionOfK7A2DamPotionStartedappliedProcedure {
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 500, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 500, 0));
+			_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 256, 0));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 500, 0));
+			_entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 256, 0));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.UNLUCK, 500, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.HARM, 20, 0));
+			_entity.addEffect(new MobEffectInstance(MobEffects.HARM, 15, 0));
 	}
 }
